@@ -1,0 +1,20 @@
+{
+  "name": "altruis",
+  "version": "1.0.0",
+  "description": "Static HTML site for Heather Buchel",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss --use autoprefixer --config postcss-options.json --output css/main.min.css ./css/main.css",
+    "serve": "browser-sync start --server --files '**/*.*'",
+    "watch:css": "onchange './css/main.css' -- npm run postcss",
+    "start": "parallelshell 'npm run serve' 'npm run watch:css'"
+  },
+  "author": "Heather Buchel",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "onchange": "^3.2.0",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.6.0"
+  }
+}
