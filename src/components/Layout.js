@@ -52,6 +52,7 @@ class Layout extends React.Component {
         font-size: 52.5%;
         box-sizing: border-box;
         border: var(--gap) solid #F1EFEB;
+        min-height: 100vh;
         *, *:after, *:before {
           box-sizing: inherit;
         }

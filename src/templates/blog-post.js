@@ -81,7 +81,7 @@ class BlogPostTemplate extends React.Component {
 
             <div css={postContent} dangerouslySetInnerHTML={{ __html: post.html }} />
 
-            {
+            {/* {
               post.frontmatter.external &&
               <a href={post.frontmatter.external} css={postExternal}>
                 <Icon name="medium" width="28px" css={{'marginRight':'calc(var(--gap)/3)'}}/>
@@ -93,7 +93,7 @@ class BlogPostTemplate extends React.Component {
                 <Icon name="arrow-right" width="28px" css={{'marginLeft':'auto'}}/>
               </a>
 
-            }
+            } */}
             <hr/>
             <Bio />
 
@@ -140,7 +140,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        external
+        
       }
     }
   }

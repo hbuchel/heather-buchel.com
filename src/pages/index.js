@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title
     const siteDescription = data.site.siteMetadata.description
-    const posts = data.allMarkdownRemark.edges
+    // const posts = data.allMarkdownRemark.edges
     const hero = css`
       margin-top: calc(var(--gap) * 3);
       padding: calc(var(--gap) * 2);
@@ -47,7 +47,7 @@ class BlogIndex extends React.Component {
           <div css={subtitle}>Design Technologist @ Amazon</div>
           <Bio />
         </div>
-        <Box padding="1">
+        {/* <Box padding="1">
           <Container size="m">
             
             <Box className="u-text-center">
@@ -63,7 +63,7 @@ class BlogIndex extends React.Component {
             </Box>
           </Container>
           
-        </Box>
+        </Box> */}
         <Social />
         
         
@@ -80,21 +80,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            external
-          }
-        }
       }
     }
   }

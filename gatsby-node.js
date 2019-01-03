@@ -18,7 +18,6 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
-                    external
                   }
                 }
               }
