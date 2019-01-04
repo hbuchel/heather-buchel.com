@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Heather Buchel`,
+        short_name: `hb`,
         start_url: `/`,
         background_color: `#ff0053`,
         theme_color: `#fff`,
