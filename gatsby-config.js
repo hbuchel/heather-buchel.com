@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Heather Buchel',
     author: 'Heather Buchel',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    description: 'Front-end web developer and user interface designer',
+    siteUrl: 'https://heather-buchel.com',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
