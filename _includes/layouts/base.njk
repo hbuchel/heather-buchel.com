@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
+		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+
+		{#-
+		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
+		1. You can add to them using `{% css %}`
+		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
+		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
+		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
+		#}
+
+		{#- Add an arbitrary string to the bundle #}
+		{%- css %}* { box-sizing: border-box; }{% endcss %}
+		{#- Add the contents of a file to the bundle #}
+		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{#- Or add from node_modules #}
+		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
+
+		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
+		<style>{% getBundle "css" %}</style>
+		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
+		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header class="site-header">
+			<div class="site-header__container container">
+				{% if page.url !== "/" %}
+				<a href="/" class="site-link site-link--home">{{ metadata.title }}</a>
+				
+				{% endif %}
+				
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<nav class="site-nav">
+					{%- for entry in collections.all | eleventyNavigation %}
+						<a class="site-link" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+					{%- endfor %}
+				</nav>
+			</div>
+		</header>
+
+		<main id="skip">
+			<div class="section">
+				<div class="container">
+					{{ content | safe }}
+				</div>
+			</div>
+		</main>
+
+		<footer class="site-footer">
+			<div class="section">
+				<div class="footer-container container">
+					<div class="footer-column">
+						<h2 class="footer__title">[ Required footer blurb. ]</h2>
+						This is my little space on the web to talk about front-end web development and accessibility. You'll probably catch me writing about lifestyle things, too, like living in NYC, cooking, and my staffy mix, Pepper.
+					</div>
+					<div class="footer-column">
+						<img width="260" class="dog" src="/img/pepper.jpg" alt="A staffy/mix dog with a brindle coat, sitting on a sidewalk and looking up into the camera." />
+						<div class="dog-caption">
+							[ Required photo of my dog, Pepper. ]
+						</div>
+					</div>
+					<div class="footer-column">
+						<ul class="plain-list">
+							<li>
+								<a href="https://hachyderm.io/@hbuchel" class="social-link">
+									<svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M19.2437 22.1036C22.8705 21.6697 26.0283 19.4309 26.4252 17.3852C27.0506 14.1627 26.999 9.52116 26.999 9.52116C26.999 3.23018 22.885 1.38619 22.885 1.38619C20.8107 0.431701 17.2488 0.0303112 13.5482 0H13.4573C9.75673 0.0303112 6.19715 0.431701 4.1227 1.38619C4.1227 1.38619 0.00855796 3.23018 0.00855796 9.52116C0.00855796 9.90255 0.00659044 10.3037 0.00454219 10.7213C-0.00114622 11.881 -0.00745729 13.1678 0.0260244 14.5108C0.175425 20.663 1.15183 26.7264 6.82938 28.2319C9.44717 28.9261 11.6947 29.0714 13.5049 28.9718C16.7875 28.7894 18.6302 27.7981 18.6302 27.7981L18.5219 25.4119C18.5219 25.4119 16.1761 26.153 13.5417 26.0627C10.9315 25.973 8.17601 25.7806 7.75386 22.57C7.71487 22.288 7.69537 21.9864 7.69537 21.6697C7.69537 21.6697 10.2576 22.2972 13.5049 22.4462C15.4904 22.5375 17.3525 22.3297 19.2437 22.1036ZM22.1463 17.6266V10.0092C22.1463 8.45241 21.7506 7.21527 20.9561 6.3C20.1364 5.38473 19.0631 4.91553 17.731 4.91553C16.1894 4.91553 15.0221 5.5091 14.2505 6.69639L13.5 7.95649L12.7498 6.69639C11.978 5.5091 10.8107 4.91553 9.26926 4.91553C7.93697 4.91553 6.86372 5.38473 6.04419 6.3C5.24947 7.21527 4.85382 8.45241 4.85382 10.0092V17.6266H7.86601V10.2331C7.86601 8.67459 8.52054 7.88353 9.82974 7.88353C11.2773 7.88353 12.0029 8.82193 12.0029 10.6775V14.7243H14.9973V10.6775C14.9973 8.82193 15.7228 7.88353 17.1703 7.88353C18.4796 7.88353 19.1341 8.67459 19.1341 10.2331V17.6266H22.1463Z" fill="currentColor"/>
+									</svg>
+									Mastodon
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/hbuchel" class="social-link">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0083 0C4.47396 0 0 4.48862 0 10.0417C0 14.4805 2.86662 18.2379 6.84338 19.5677C7.34058 19.6677 7.5227 19.3517 7.5227 19.0858C7.5227 18.853 7.50631 18.0551 7.50631 17.2236C4.72225 17.8223 4.14249 16.0266 4.14249 16.0266C3.69508 14.8628 3.03215 14.5637 3.03215 14.5637C2.12092 13.9486 3.09852 13.9486 3.09852 13.9486C4.1093 14.0151 4.63969 14.9793 4.63969 14.9793C5.53432 16.5087 6.97592 16.0766 7.55588 15.8105C7.63865 15.1621 7.90394 14.7133 8.18563 14.464C5.96514 14.2312 3.62891 13.3667 3.62891 9.50955C3.62891 8.41229 4.02634 7.51456 4.65608 6.81638C4.55672 6.56705 4.20866 5.5361 4.75564 4.15626C4.75564 4.15626 5.60069 3.8902 7.5061 5.18701C8.32188 4.9672 9.16317 4.85538 10.0083 4.85444C10.8533 4.85444 11.7148 4.97094 12.5102 5.18701C14.4159 3.8902 15.2609 4.15626 15.2609 4.15626C15.8079 5.5361 15.4596 6.56705 15.3603 6.81638C16.0066 7.51456 16.3876 8.41229 16.3876 9.50955C16.3876 13.3667 14.0514 14.2144 11.8143 14.464C12.179 14.7798 12.4936 15.3782 12.4936 16.3259C12.4936 17.6725 12.4773 18.7532 12.4773 19.0856C12.4773 19.3517 12.6596 19.6677 13.1566 19.5679C17.1333 18.2377 20 14.4805 20 10.0417C20.0163 4.48862 15.526 0 10.0083 0Z" fill="currentColor"/>
+									</svg>
+									Github
+								</a>
+							</li>
+							<li>
+								<a href="https://staging.bsky.app/profile/hbuchel.bsky.social" class="social-link">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.70588 12.5581L6.69357 9.16553C7.09485 9.07433 7.49612 8.96489 7.8974 8.83721C8.31692 8.70953 8.71819 8.56361 9.10123 8.39945C9.48427 8.23529 9.82171 8.04378 10.1135 7.8249C10.4236 7.60602 10.6607 7.35066 10.8249 7.05882C11.0073 6.76699 11.0985 6.44779 11.0985 6.10123C11.0985 5.86411 11.0438 5.67259 10.9343 5.52668C10.8431 5.38076 10.7063 5.27132 10.5239 5.19836C10.3415 5.10716 10.1227 5.06156 9.86731 5.06156C9.35659 5.06156 8.82763 5.24396 8.28044 5.60875C7.75148 5.97355 7.22253 6.65755 6.69357 7.66074L3 4.10397C3.85727 2.7907 4.86959 1.77839 6.03694 1.06703C7.22253 0.355677 8.46284 0 9.75787 0C10.9982 0 12.1199 0.255358 13.1231 0.766074C14.1263 1.25855 14.9197 1.94254 15.5034 2.81806C16.0871 3.67533 16.3789 4.64204 16.3789 5.71819C16.3789 6.44779 16.2239 7.17738 15.9138 7.90698C15.622 8.61833 15.2025 9.28409 14.6553 9.90424C14.1263 10.5244 13.497 11.0625 12.7674 11.5185C12.0378 11.9745 11.2353 12.321 10.3598 12.5581H10.2503H7.70588ZM6.69357 17.264C6.69357 16.4615 6.93981 15.8048 7.43228 15.2941C7.943 14.7834 8.59964 14.528 9.40219 14.528C10.2595 14.528 10.9252 14.7652 11.3995 15.2394C11.8737 15.7136 12.1108 16.3885 12.1108 17.264C12.1108 18.0666 11.8554 18.7232 11.3447 19.2339C10.8523 19.7446 10.2047 20 9.40219 20C8.54492 20 7.87916 19.7629 7.40493 19.2886C6.93069 18.8144 6.69357 18.1395 6.69357 17.264Z" fill="currentColor"/>
+									</svg>
+									Bluesky
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<div class="copyright">Copyright, whatever. Why do websites feel weird without this?</div>
+		</footer>
+
+		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+	</body>
+</html>

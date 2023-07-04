@@ -1,0 +1,15 @@
+{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+
+	<div class="card-list container">
+	{% for post in postslist | reverse %}
+		<article class="card{% if post.url == url %} card--active{% endif %}">
+			<h3 class="card__heading">
+				<a href="{{ post.url }}" class="card__link">
+					<span class="card__link__text">{{ post.data.title }}</span>
+				</a>
+			</h3>
+			<time class="card__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DD") }}</time>
+		</article>
+	{% endfor %}
+</div>
+

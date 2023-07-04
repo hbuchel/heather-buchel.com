@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+---
+{# Only include the syntax highlighter CSS on blog posts #}
+{%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
+{%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
+
+	<div class="post">
+		<div class="post-wrapper">
+		<h1 class="post-title">{{ title }}</h1>
+
+		
+		<time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+
+		
+		<div class="post-content">
+		{{ content | safe }}
+		</div>
+
+		{%- if collections.posts %}
+		{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+		{%- set nextPost = collections.posts | getNextCollectionItem %}
+		{%- if nextPost or previousPost %}
+		<div class="post-nav">
+			{%- if previousPost %}
+			<article class="card card--small post-nav-prev">
+				<span class="card-subtitle">
+					<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 8.70712C-0.0976311 8.31659 -0.0976311 7.68343 0.292893 7.2929L6.65685 0.928941C7.04738 0.538416 7.68054 0.538416 8.07107 0.928941C8.46159 1.31947 8.46159 1.95263 8.07107 2.34315L3.41421 7.00001H21V9.00001H3.41421L8.07107 13.6569C8.46159 14.0474 8.46159 14.6806 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70712Z" fill="currentColor"/>
+					</svg>
+					Previous
+				</span>
+				<h3 class="card__heading">
+					<a href="{{ previousPost.url }}" class="card__link">
+						<span class="card__link__text">{{ previousPost.data.title }}</span>
+					</a>
+				</h3>
+				<time class="card__date" datetime="{{ previousPost.date | htmlDateString }}">{{ previousPost.date | readableDate("DD") }}</time>
+			</article>
+			{% endif %}
+			{%- if nextPost %}
+				<article class="card card--small post-nav-next">
+					<span class="card-subtitle">
+						Next
+						<svg style="transform: scaleX(-1)" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 8.70712C-0.0976311 8.31659 -0.0976311 7.68343 0.292893 7.2929L6.65685 0.928941C7.04738 0.538416 7.68054 0.538416 8.07107 0.928941C8.46159 1.31947 8.46159 1.95263 8.07107 2.34315L3.41421 7.00001H21V9.00001H3.41421L8.07107 13.6569C8.46159 14.0474 8.46159 14.6806 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70712Z" fill="currentColor"/>
+						</svg>
+						
+					</span>
+					<h2 class="card__heading">
+						<a href="{{ nextPost.url }}" class="card__link">
+							<span class="card__link__text">{{ nextPost.data.title }}</span>
+						</a>
+					</h2>
+					<time class="card__date" datetime="{{ nextPost.date | htmlDateString }}">{{ nextPost.date | readableDate("DD") }}</time>
+				</article>
+			{% endif %}
+		</div>
+		{%- endif %}
+		{%- endif %}
+		</div>
+	</div>
+
