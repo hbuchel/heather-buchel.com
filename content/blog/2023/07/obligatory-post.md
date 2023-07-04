@@ -1,12 +1,11 @@
 ---
 title: Obligatory post about re-starting my personal site.
-description: This is a post on My Blog about touchpoints and circling wagons.
+description: Where I basically force myself, for my own good, to enjoy building things on the web again.
 date: 2023-07-03
 tags: second tag
 ---
 
-I think anyone who has lived on the internet for a long time has had this moment: when you 
-finally decide to re-visit your personal site. If you work on the front-end in the web space, it probably gnaws at you weekly.
+I think anyone who has lived on the internet for a long time has had this moment: when you finally decide to re-visit your personal site. If you work on the front-end in the web space, it probably gnaws at you weekly.
 
 Anyways, here is mine. I'm back at this for a few reasons:
 - **We're as of writing this, watching Twitter gut itself from the inside.** Twitter was my "space" on the internet. I met and followed a lot of individuals there that had meaningful impact on my life through job offers, sharing their activism, or just general knowledge sharing. I'd like to have a "space" of my own again.
