@@ -1,17 +1,14 @@
-{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
-
-
-	{% for post in postslist | reverse %}
-		<article class="article">
-			<time class="article__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DD") }}</time>
-			<h2 class="article__heading">
-				<a href="{{ post.url }}" class="article__link">
-					{{ post.data.title }}
-				</a>
-			</h2>
-			
-			<p>{{ post.data.description }}</p>
-		</article>
-	{% endfor %}
+{% for post in postslist | reverse %}
+	<article class="article">
+		<time class="article__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DD") }}</time>
+		<h2 class="article__heading">
+			<a href="{{ post.url }}" class="article__link">
+				{{ post.data.title }}
+			</a>
+		</h2>
+		
+		<p>{{ post.data.description }}</p>
+	</article>
+{% endfor %}
 
 

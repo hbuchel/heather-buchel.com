@@ -1,6 +1,4 @@
-{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
-
-	<div class="card-list container">
+<div class="card-list container">
 	{% for post in postslist | reverse %}
 		<article class="card{% if post.url == url %} card--active{% endif %}">
 			<h3 class="card__heading">
