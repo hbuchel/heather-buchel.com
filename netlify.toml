@@ -17,8 +17,8 @@
 	[plugins.inputs.thresholds]
 		performance = 1.0
 		accessibility = 1.0
-		best-practices = .9
-		seo = .9
+		best-practices = 0.9
+		seo = 0.9
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
