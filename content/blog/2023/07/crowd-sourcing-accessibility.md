@@ -2,7 +2,7 @@
 title: Thoughts on crowd sourcing your accessibility feedback.
 description: Summarizing my thoughts on why crowd sourcing your accessibility feedback isn't always a great idea.
 date: 2023-07-04
-tags: second tag
+tags: [accessibility, open source]
 ---
 
 Some recent discourse regarding accessibility on BlueSky left me with some feelings about crowd sourcing your accessibility feedback. I'll copy that post here since BlueSky is still invite-only:

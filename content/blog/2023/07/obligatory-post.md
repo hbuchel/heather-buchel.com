@@ -2,7 +2,6 @@
 title: Obligatory post about re-starting my personal site.
 description: Where I basically force myself, for my own good, to enjoy building things on the web again.
 date: 2023-07-03
-tags: second tag
 ---
 
 I think anyone who has lived on the internet for a long time has had this moment: when you finally decide to re-visit your personal site. If you work on the front-end in the web space, it probably gnaws at you weekly.
