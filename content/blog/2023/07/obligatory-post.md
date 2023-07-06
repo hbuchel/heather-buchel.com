@@ -11,7 +11,7 @@ Anyways, here is mine. I'm back at this for a few reasons:
 - **I've been looking into other social platforms lately.** I've joined Mastodon, Pixelfed, and Bluesky. Those fulfill the online social space that Twitter left. Still, I'd like to have a place for putting some words to screen that don't fit the format of a thread on those sites.
 - **Work**. Companies are laying off people left and right, and that makes me feel uneasy about my job that I feel lucky to still have. Time to get my online space back in shape so I have somewhere to send people to if/when the time comes.
 
-<blockquote class="blockquote blockquote--right">
+<blockquote class="bq bq--right">
 I whole heartedly miss being enthusiastic about buiding things on the web.
 </blockquote>
 

@@ -1,0 +1,40 @@
+
+
+.bq {
+	display: block;
+	text-wrap: balance;
+	font-size: var(--font-size-medium);
+	padding-left: var(--space-medium);
+	position: relative;
+}
+
+.bq::before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 48px;
+	background: #ddd;
+	left: 0;
+	 top: 0;
+}
+
+
+.bq-attr {
+	display: block;
+	font-weight: 400;
+	text-align: end;
+	magin-top: var(--space-small);
+}
+.bq-attr::before {
+	content: '-';
+}
+
+@media (min-width: 900px) {
+	.bq--right {
+		--span: 2;
+		grid-column: aside;
+		grid-row-start: auto;
+		grid-row-end: span var(--span);
+	}
+	
+}

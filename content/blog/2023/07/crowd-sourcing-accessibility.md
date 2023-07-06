@@ -7,18 +7,18 @@ tags: [accessibility, open source]
 
 Some recent discourse regarding accessibility on BlueSky left me with some feelings about crowd sourcing your accessibility feedback. I'll copy that post here since BlueSky is still invite-only:
 
-<blockquote class="blockquote">
+<blockquote class="bq">
 I really hope BlueSky is paying the people spending time to collect and relay accessibility feedback that they've reached out to for guidance. Like this isn't just a cute little open source library. You're bankrolled.
-<span class="blockquote-attr">me, <a href="https://staging.bsky.app/profile/hbuchel.bsky.social/post/3jyz2mqyled2x">posted on Bluesky</a></span>
+<span class="bq-attr">me, <a href="https://staging.bsky.app/profile/hbuchel.bsky.social/post/3jyz2mqyled2x">posted on Bluesky</a></span>
 </blockquote>
 
 There are two things I've noticed on BlueSky since I joined: **1.** BlueSky _seems_ to largely be gathering their feedback on accessibility issues via crowdsourcing. **2.** People were excusing why the app and website launched with <a href="https://staging.bsky.app/profile/hbuchel.bsky.social/post/3jucw63ncnx2e">glaring accessibility issues</a> (this is a link to Bluesky discussing some of the issues; my apologies if you can't access it, it's not really necessary for this discussion).
 
-<aside>
+<aside class="aside">
 In BlueSky's defense, they <strong>have</strong> been releasing a ton of accessibility improvements to the app, which is great to see. I pick on them in this article because, well, they have leadership that could have done better and I believe the responsibility they have is greater than most open-source projects.
 </aside>
 
-## Relying solely on crowdsourcing for accessibility feedback leads to inconsistent results and is exclusionary
+## Relying solely on crowdsourcing for accessibility feedback leads to inconsistent results and excludes contributors
 
 Accessibility consulting is a whole job. Even as a developer who refers to themselves as an advocate and not a full time accessibility engineer, it is work that easily and often leads to burnout. It's worth paying someone to do this work just as much as you think it is to pay someone to re-write your application in Typescript; or whatever other tech problem someone might think is absolutely essential, you get the idea. 
 
@@ -41,17 +41,17 @@ There is always this slew of replies given when you bring up that a product open
 **Please stop doing this**. 
 
 ### But it's a small team!
-<blockquote class="blockquote blockquote--right">If you're doing something so ambitious, like creating a product to replace Twitter, it's your responsibility to find the right people.</blockquote>
+<blockquote class="bq bq--right">If you're doing something so ambitious, like creating a product to replace Twitter, it's your responsibility to find the right people.</blockquote>
 
 If you're mantaining an open source product that includes a UI that people use, you need to attract people that build UI to your product. Invite them. Seek them out. Hire them. Show them how they can contribute if they are not code writers or if they don't use your specific framework/tech stack/etc. If you're doing something so ambitious, like creating a product to replace Twitter, it's your responsibility to find the right people.
 
-<aside>
+<aside class="aside">
 I have a whole list of ideas for how to attract people to your project that don't write code or don't come from a heavy engineering background. Hopefully I can get to writing it and update this space with a link to it!
 </aside>
 
 Twitter and Reddit are examples of apps where open source platforms are springing up to replace them. But it should not be overlooked that these platforms were used for community building. For mutual aid. For activism and raising awareness. We're not talking about replacing your go-to linting library or image minification tool. We're talking about services that some have argued should be a public utility; that is how important they have become.
 
-<blockquote class="blockquote blockquote--right">R.I.P. to the Twitter accessibility team.</blockquote>
+<blockquote class="bq bq--right" style="--span: 1">R.I.P. to the Twitter accessibility team.</blockquote>
 
 This excuse has even less weight for a product like BlueSky, which is funded by Jack Dorsey. They are bankrolled. Hire disabled people. 
 

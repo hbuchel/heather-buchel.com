@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, h6 {
+	line-height: var(--line-height-small);
+  color: var(--color-neutral-70);
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+h4 {
+  font-size: var(--font-size-large);
+}
+
+h5 {
+  font-size: var(--font-size-medium);
+}
+
+h6 {
+  font-size: var(--font-size-small);
+}
+
+ul {
+  margin: 0;
+}
+
+ul > li + li {
+  margin-top: var(--space-xxxs);
+}
