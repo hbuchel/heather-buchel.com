@@ -15,6 +15,8 @@
 	--color-green-10: hsl(72, 20%, 92%);
 	--color-green-30: hsl(75, 9%, 72%);
 
+	--color-teal-10: hsl(146, 18%, 93%);
+
 	--color-red-50: hsl(5, 63%, 55%);
 
 	--color-pink-30: hsl(5, 57%, 73%);
@@ -26,6 +28,7 @@
 
 	--background-primary: var(--color-orange-10);
 
+	--space-xxxs: .4rem;
 	--space-xxs: .75rem;
 	--space-xs: 1rem;
 	--space-small: 1.2rem;
@@ -35,7 +38,18 @@
 	--space-xxl: 2.8rem;
 	--space-xxxl: 3.2rem;
 
-	--max-width-large: 1080px;
+
+	--font-size-small: 1.2rem;  
+	--font-size-medium: 1.4rem; 
+	--font-size-large: 1.6rem; 
+	--font-size-xl: 1.8rem; 	
+	--font-size-xxl: 2.0rem;   
+	--font-size-xxxl: 2.2rem;  
+
+
+
+
+	--max-width-large: 1200px;
 
 	/* Card */
 	--card-padding: var(--space-xl) var(--space-large);
