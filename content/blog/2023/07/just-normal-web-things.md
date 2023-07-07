@@ -22,4 +22,6 @@ Here are some things I wish people allowed to continue to work in their web proj
 - **Let me see scroll bars** Please don't hide them for the sake of your "slick" ui. Sometimes I want to click on the scrollbar and drag it. Just a normal web thing.
 - **Stop hijacking my typical browser shortcuts for use in your own app** I've seen this happen with `ctrl + f` for opening a custom in-app search bar. I don't want that. It doesn't always search the page as usual.
 
-I stopped myself from adding a lot of things that would usually fall under accessibility violations though there is definitely a lot of crossover in the list above. What did I miss? 
+I stopped myself from adding a lot of things that would usually fall under accessibility violations though there is definitely a lot of crossover in the list above. What did I miss? <a href="https://hachyderm.io/@hbuchel/110669996408706858">Let me know on Mastodon.</a>
+
+<iframe src="https://hachyderm.io/@hbuchel/110669996408706858/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
