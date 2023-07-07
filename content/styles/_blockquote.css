@@ -32,8 +32,9 @@
 @media (min-width: 900px) {
 	.bq--right {
 		--span: 2;
+		--offset: auto;
 		grid-column: aside;
-		grid-row-start: auto;
+		grid-row-start: var(--offset);
 		grid-row-end: span var(--span);
 	}
 	
