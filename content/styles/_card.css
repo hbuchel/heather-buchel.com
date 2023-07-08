@@ -12,7 +12,7 @@
 	flex-direction: column;
 	background: var(--card-background-color);
 	box-shadow: 10px 10px 0 var(--color-green-30);
-	transition: all .2s ease-out;
+	transition: background-color .2s ease-out;
 }
 .card:nth-of-type(2) {
 	background-color: var(--color-orange-15);
