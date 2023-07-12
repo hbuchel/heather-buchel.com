@@ -6,6 +6,8 @@
 	font-size: var(--font-size-medium);
 	padding-left: var(--space-medium);
 	position: relative;
+	font-style: italic;
+	font-weight: 300;
 }
 
 .bq::before {

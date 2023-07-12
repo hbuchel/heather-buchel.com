@@ -5,7 +5,8 @@
 	--line-height-small: 1.4;
 	--line-height-medium: 1.6;
 
-	--font-primary: 'Lexend', sans-serif;
+	--font-primary: 'Literata', serif;
+	;
 
 	--color-orange-10: hsl(43, 33%, 96%);
 	--color-orange-15: hsl(27, 38%, 94%);
@@ -46,10 +47,7 @@
 	--font-size-xxl: 2.0rem;   
 	--font-size-xxxl: 2.2rem;  
 
-
-
-
-	--max-width-large: 1200px;
+	--max-width-large: 1100px;
 
 	/* Card */
 	--card-padding: var(--space-xl) var(--space-large);

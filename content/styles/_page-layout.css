@@ -8,10 +8,6 @@
 	padding: var(--space-xxxl) 0 var(--space-large);
 }
 
-/* .page__content > * + * {
-	margin-top: var(--space-large);
-} */
-
 .page__content {
 	display: grid;
 	row-gap: var(--space-xl);
@@ -36,7 +32,7 @@
     grid-template-rows: auto;
 	}
 
-  .page__content * {
+  .page__content *:not(.bq--right) {
     grid-column: content;
   }
 
