@@ -49,16 +49,12 @@ a:hover {
 	font-size: 1.4rem;
 }
 
-
-
-
 .plain-list {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
-	text-align: left;
-	
+	text-align: left;	
 }
 
 
@@ -78,9 +74,6 @@ a:hover {
 
 
 
-.page-title {
-	margin: 0 0 var(--space-medium);
-}
 
 .meta dt {
 	font-weight: 700;

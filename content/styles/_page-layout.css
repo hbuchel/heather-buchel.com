@@ -5,7 +5,7 @@
 
 .page__header {
 	border-bottom: 1px dashed var(--color-green-30);
-	padding: var(--space-xxxl) 0 var(--space-large);
+	padding: var(--space-xxxl) 0 var(--space-xxxl);
 }
 
 .page__content {
