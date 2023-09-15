@@ -52,6 +52,7 @@
 	padding: var(--space-large) var(--space-large) 0;
 	text-align: center;
 	position: relative;
+	font-size: var(--font-size-xs);
 }
 .copyright::before {
 	content: '';
