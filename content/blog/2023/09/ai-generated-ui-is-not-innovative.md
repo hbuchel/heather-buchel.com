@@ -5,7 +5,7 @@ date: 2023-09-14
 tags: [ai, web platform, accessibility]
 ---
 
-No tool that asserts you can build production-grade UI code from their AI is innovative if it's not driven by accessibility. That is the short and sweet of it. 
+No tool that asserts you can build production-grade UI code from their AI is innovative if it's not driven by accessibility. It's also not production-grade if the code it generates is inaccessible. That is the short and sweet of it. 
 
 ## We've been here before.
 
