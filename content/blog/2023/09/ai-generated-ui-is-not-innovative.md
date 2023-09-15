@@ -66,3 +66,7 @@ I've seen a number of excuses for these tools being new or in an alpha/beta stat
 ## Wrapping up, I guess
 
 Honestly, I'm tired. We create problems like good UI being difficult to build because we won't hire people who can build good UI. It's boring and predictable, and nothing new.
+
+How do you see these tools fitting into our front-end space? <a href="https://hachyderm.io/@hbuchel/111070076254560427">Let me know on Mastodon</a>.
+
+<iframe src="https://hachyderm.io/@hbuchel/111070076254560427/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
