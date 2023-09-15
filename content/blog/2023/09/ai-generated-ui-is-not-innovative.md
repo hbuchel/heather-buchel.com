@@ -7,6 +7,8 @@ tags: [ai, web platform, accessibility]
 
 No tool that asserts you can build production-grade UI code from their AI is innovative if it's not driven by accessibility. It's also not production-grade if the code it generates is inaccessible. That is the short and sweet of it. 
 
+Not everyone is claiming that their AI tool is particularly innovative. But like most things involving AI right now, we are seeing some pretty wild claims.
+
 ## We've been here before.
 
 <blockquote class="bq bq--right" style="--offset: 2">We've been in this same scenario with design tools prior to this current AI craze</blockquote>
@@ -35,7 +37,7 @@ Code that generates an inaccessible UI is not production-grade. Until our tools 
 
 I've mentioned prototyping. But even then, I'd hesitate to put it in the hands of an engineer that doesn't know UI development. It's the same with handing off a design mockup in Figma or Sketch that doesn't spell out the required accessibility needs and interaction states; like focus, disabled, etc. There are a lot of gaps to fill in.
 
-Sometimes, however, tools like this can be yet another tool in the arsenal for design teams to help translate ideas to engineering teams. We don't always speak the same language. It's nice to have things to point at and go "See, like this" and tools that overlap the design and engineering worlds are useful. 
+Sometimes, however, tools like this can be yet another tool in the arsenal for design teams to help translate ideas to engineering teams. We don't always speak the same language. It's nice to have things to point at and go "See, like this" and tools that overlap the design and engineering worlds are useful. Why can't this be good enough, a pre-development tool? Is it because it's now a tool that can cater to the UX/design crowd?
 
 ### Ok, here is the cynical part.
 
@@ -61,4 +63,4 @@ I've seen a number of excuses for these tools being new or in an alpha/beta stat
 
 ## Wrapping up, I guess
 
-Honestly, I'm tired. We create problems like not having people to build good UI because we won't hire people who can build good UI. It's boring and predictable, and nothing new.
+Honestly, I'm tired. We create problems like good UI being difficult to build because we won't hire people who can build good UI. It's boring and predictable, and nothing new.
