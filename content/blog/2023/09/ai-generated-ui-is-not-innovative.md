@@ -3,6 +3,7 @@ title: We're still not innovating with AI-generated UI.
 description: We continue to not solve the same problems that we largely conjured out of no where.
 date: 2023-09-14
 tags: [ai, web platform, accessibility]
+socialImage: https://heather-buchel.com/social-images/ai-generated-ui-is-not-innovative.png
 ---
 
 No tool that asserts you can build production-grade UI code from their AI is innovative if it's not driven by accessibility. It's also not production-grade if the code it generates is inaccessible. That is the short and sweet of it. 
@@ -18,6 +19,7 @@ This is where we are and it's where we've been before. We've been in this same s
 And, your developer would wonder how on earth are they going to keep design-generated code maintained and on par with what they actually end up shipping in production.
 
 So here we are again.
+
 <div>
 <img src="/img/ai-gen-tweet.png" class="img img--center img--medium" alt="a tweet from @rauchg that reads: v0.dev produces the kind of production-grade code that we'd want to ship in our own @vercel products. That was the bar we set for ourselves. At the moment it can output HTML with @tailwindcss and React w/ @shadcn UI." />
 <p class="source"><a href="https://twitter.com/rauchg/status/1702355455362912595">tweet source</a></p>
