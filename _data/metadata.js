@@ -7,5 +7,6 @@ module.exports = {
 		name: "Heather Buchel",
 		email: "hbuchel@gmail.com",
 		url: "https://heather-buchel.com/"
-	}
+	},
+	image: "https://heather-buchel.com/social-images/default.png"
 }
