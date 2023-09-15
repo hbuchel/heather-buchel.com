@@ -5,11 +5,21 @@
 }
 .site-header__container {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .site-nav {
 	display: flex;
-	margin-left: auto;
+}
+
+@media (min-width: 425px) {
+	.site-header__container {
+		flex-direction: row;
+	}
+	.site-nav {
+		margin-left: auto;
+	}
 }
 
 .site-link {
