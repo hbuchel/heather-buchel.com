@@ -15,6 +15,12 @@
 		<meta property="og:image:width" content="600">
 		<meta property="og:image:height" content="315">
 
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@hbuchel" />
+		<meta name="twitter:title" content="{{ title or metadata.title }}" />
+		<meta name="twitter:description" content="{{ description or metadata.description }}" />
+		<meta name="twitter:image" content="{{ socialImage or metadata.image }}" />
+
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 		<link rel="icon" href="/favicon.ico" sizes="any">
