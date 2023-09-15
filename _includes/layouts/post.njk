@@ -9,6 +9,7 @@ layout: layouts/base.njk
 	<div class="page__header">
 		<h1>{{ title }}</h1>
 		<time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+		<p class="page__description">{{ description }}</p>
 	</div>
 	<div class="page__content">
 		{{ content | safe }}

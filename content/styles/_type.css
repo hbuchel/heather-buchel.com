@@ -35,3 +35,9 @@ ul {
 ul > li + li {
   margin-top: var(--space-xxxs);
 }
+
+.source {
+  font-size: var(--font-size-xs);
+  margin: var(--space-xxxs);
+  text-align: center;
+}
