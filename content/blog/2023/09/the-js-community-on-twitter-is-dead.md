@@ -57,3 +57,7 @@ Why aren't you using other platforms where a lot of accessibility advocates move
 The cynic in me understands that the very "bad" people are important to paying your bills at the end of the month. Or, they're who make you feel popular in the web community. Maybe think about that.
 
 This is what is left of the JS community on Twitter.
+
+<a href="https://hachyderm.io/@hbuchel/111081583133963318">I posted this on Mastodon here.</a>
+
+<iframe src="https://hachyderm.io/@hbuchel/111081583133963318/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
