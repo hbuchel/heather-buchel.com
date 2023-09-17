@@ -40,7 +40,7 @@ If you found yourself watching this weekends "drama" as some of you are calling 
 - "Yes, well nothing can be 100% accessible" or 
 - "Gee it is just an alpha software, surely you can let them slide" or 
 - "golly, well look at all these accessibility issues in this OTHER software I found" or 
-- using your verified Twitter account to post your essay on how "accessibility is actually really hard!" when you RARELY talk about accessibility except when you feel like somebody is shaming you because you as a white man never learned what it's like to get feedback 
+- using your verified Twitter account to post your essay on how "accessibility is actually really hard!" when you **rarely** talk about accessibility except when you feel like somebody is shaming you because you as a white man never learned what it's like to get feedback 
 
 Then, yes. You are also a part of the problem in this discourse. Your "well actually" posts are just going to get co-opted by the people that think "well actually ableism is acceptable". Take a hard look at the people that are cheering you on for your well meaning replies.
 
