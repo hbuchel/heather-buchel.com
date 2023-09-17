@@ -34,7 +34,7 @@ We're at this point:
 
 ## What are you doing?
 
-If you're a member of the JS community on social media, what are you doing? Not only did I not see anyone from this specific company disavow this type of talk (I honestly don't care to check these few days later because I saw enough), others were reaching as far as possible to basically apologize for them.
+If you're a member of the JS community on social media, specifically on Twitter, what are you doing? Not only did I not see anyone from this specific company disavow this type of talk (I honestly don't care to check these few days later because I saw enough), others were reaching as far as possible to basically apologize for them.
 
 If you found yourself watching this weekends "drama" as some of you are calling it and saying any of the following: 
 - "Yes, well nothing can be 100% accessible" or 
