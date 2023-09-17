@@ -2,3 +2,7 @@
 	background: var(--color-green-10);
   padding: var(--space-large);
 }
+
+.aside p + p {
+  margin-top: var(--space-medium);
+}
