@@ -97,4 +97,6 @@ Here are some other articles that this topic always makes me think of:
 - [Tailwind and the Femininity of CSS](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css) by Elaina Natario
 - [front-of-the-front-end and back-of-the-front-end web development](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) by Brad Frost
 
-[Yell at me very politely on Mastodon about all of this!]() 
+[Yell at me very politely on Mastodon about all of this!](https://hachyderm.io/@hbuchel/111293064526647885) 
+
+<iframe src="https://hachyderm.io/@hbuchel/111293064526647885/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
