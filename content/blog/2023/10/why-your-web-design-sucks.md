@@ -39,7 +39,7 @@ I don't know how else to answer this, besides: the gendering of design as women'
 What happened around that time, in 2010 or so, that I mentioned? Well, the area of front-end work, which has been heavily gendered as "feminine" work, was finally being viewed as "serious" or "real" programming* because, to no one's surprise, something that is designed well is good for business. As a "real" career option for developers, now men are interested. You're welcome.
 
 <aside class="aside">
-*Queue that tweet that shows up every 6 months or so that tries to stir the pot by boldly claiming HTML is or is not a real programming language.</aside>
+*Cue that tweet that shows up every 6 months or so that tries to stir the pot by boldly claiming HTML is or is not a real programming language.</aside>
 
 ### Sorry, building websites is for us serious manly man engineers now who can do very difficult things like making the computers go beep boop.
 
@@ -86,7 +86,7 @@ At what point do we stop and realize that we are setting our design teams up for
 
 Some of the issues I acknowledged are education gaps. We don't teach web design anymore. We rarely even use that term, even though that's explicitly what it is that we're missing. We don't have designers that have the deeply technical knowledge they need to design for the web. We give them a role of UX designer and make do with them having a vague understanding of how the platform works and how to design for it.
 
-But why is there this education gap? I think that's a larger systemic question. I would love to hear folks who have a formal education in UX design chime in; because I think their role is largely misunderstood and misapplied. Not having a formal education in neither design nor development, I don't have a great answer to this. On the engineering side, I do know that the recent trend of bootcamps for front-end development largely fail their students; they don't equip them with the technical design knowledge needed for building websites and, instead, often jettison them straight to scaffolding a website via a popular framework.
+But why is there this education gap? I think that's a larger systemic question. I would love to hear folks who have a formal education in UX design chime in; because I think their role is largely misunderstood and misapplied. Having a formal education in neither design nor development, I don't have a great answer to this. On the engineering side, I do know that the recent trend of bootcamps for front-end development largely fail their students; they don't equip them with the technical design knowledge needed for building websites and, instead, often jettison them straight to scaffolding a website via a popular framework.
 
 There is also the larger issue of who we hire for. This is something I think about often when I think about moving teams or companies. Am I going to find a place that will allow me to actually utilize all of this web design knowledge I have? Or, am I going to just be a JS engineer who spends most of my time configuring pipelines or doing ops work? I would say that most larger organizations favor the latter and live with the gaps in design. So, if you're a front-end developer, where do you spend your time developing yourself? To get the roles that companies actually hire for and pay more for?
 
