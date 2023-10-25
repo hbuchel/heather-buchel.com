@@ -1,9 +1,9 @@
 ---
 title: It's 2023, here is why your web design sucks.
-description: Surprise, an engineer has thoughts and opinions on your website design.
+description: Exploring the reasons why we no longer have web designers.
 date: 2023-10-24
 tags: [design]
-socialImage: https://heather-buchel.com/social-images/js-community-twitter.png
+socialImage: https://heather-buchel.com/social-images/here-is-why-your-design-sucks.png
 ---
 
 **TLDR:** At some point, we told design they couldn't sit with us anymore, and surprise! It backfired! Now, not only has the field and profession of web design suffered, but also, we build shitty websites.
@@ -94,7 +94,7 @@ Anyways, that's why your design sucks.
 
 Here are some other articles that this topic always makes me think of:
 
-- [Tailwind and the Femininity of CSS](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css)
-- [front-of-the-front-end and back-of-the-front-end web development](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)
+- [Tailwind and the Femininity of CSS](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css) by Elaina Natario
+- [front-of-the-front-end and back-of-the-front-end web development](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) by Brad Frost
 
 [Yell at me very politely on Mastodon about all of this!]() 
