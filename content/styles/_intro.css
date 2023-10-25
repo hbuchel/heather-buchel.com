@@ -28,7 +28,7 @@
 @media (min-width: 800px) {
 	.intro {
 		flex-direction: row;
-		max-width: 700px;
+		max-width: 740px;
 		padding: calc(var(--space-large) * 2) 0;
 	}
 	.intro__img {

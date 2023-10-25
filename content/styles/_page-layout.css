@@ -20,6 +20,11 @@
 	line-height: var(--line-height-small);
 }
 
+.post-date {
+	margin-top: var(--space-small);
+	display: block;
+}
+
 @media (min-width: 900px) {
 	.page {
 		grid-template-columns: 2fr 1fr;
