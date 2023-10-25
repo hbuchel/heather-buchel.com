@@ -2,7 +2,7 @@
 /* Theme */
 :root {
 
-	--line-height-small: 1.4;
+	--line-height-small: 1.3;
 	--line-height-medium: 1.6;
 
 	--font-primary: 'Literata', serif;
@@ -39,15 +39,15 @@
 	--space-xxxl: 3.2rem;
 
 
-	--font-size-xs: 1.0rem;
-	--font-size-small: 1.2rem;  
-	--font-size-medium: 1.4rem; 
-	--font-size-large: 1.6rem; 
-	--font-size-xl: 1.8rem; 	
-	--font-size-xxl: 2.0rem;   
-	--font-size-xxxl: 2.2rem;  
+	--font-size-xs: 1.2rem;
+	--font-size-small: 1.4rem;  
+	--font-size-medium: 1.6rem; 
+	--font-size-large: 1.8rem; 
+	--font-size-xl: 2.0rem; 	
+	--font-size-xxl: 2.2rem;   
+	--font-size-xxxl: 2.4rem;  
 
-	--max-width-large: 1100px;
+	--max-width-large: 1200px;
 
 	/* Card */
 	--card-padding: var(--space-xl) var(--space-large);
