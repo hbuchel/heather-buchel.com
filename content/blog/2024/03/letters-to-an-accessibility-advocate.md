@@ -111,4 +111,6 @@ This one sucks, because I really like squirelling away and doing a really good j
 
 <hr />
 
-I genuinely want anything and everything that I've struggled with to come easier to developers that are just entering this space. Anything that you would tell them or your younger self? Let me know on Mastodon.
+I genuinely want anything and everything that I've struggled with to come easier to developers that are just entering this space. Anything that you would tell them or your younger self? [Let me know on Mastodon.](https://hachyderm.io/@hbuchel/112085245694658753)
+
+<iframe src="https://hachyderm.io/@hbuchel/112085245694658753/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
