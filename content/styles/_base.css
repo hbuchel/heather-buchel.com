@@ -13,7 +13,9 @@ body {
 	
 }
 
-
+hr {
+	margin: 0;
+}
 
 a {
 	color: hsl(290, 14%, 33%);
