@@ -60,7 +60,7 @@ At some point you're going to make a recommendation for an accessibility require
 
 And then it's going to backfire. Sometimes spectacularly so. That thing that wasn't a priority is now suddenly deemed very broken and a problem. Higher up people are mad. The word escalation is being used. You're going to be frustrated at the time lost and at the frustrations that were caused to your users because you weren't listened to in the first place.
 
-Maybe keep those in your pocket. Reflect on how you documented the ask; actually, make sure you're documenting accessibility  requirements if you're not already because it might protect you. Off hand or informal conversations in person or over Slack aren't as easy to point to as a requirements doc with big red text that says "BLOCKER". See how you can use it to give you the advantage next time when trying to influence changes. At this point, you can likely just hope to use it as a learning experience.
+Maybe keep those in your pocket. Reflect on how you documented the ask; actually, make sure you're documenting accessibility  requirements if you're not already because it might protect you. Off hand or informal conversations in person or over Slack aren't as easy to point to as a requirements doc with big red text that says "BLOCKER". See how you can use it to give yourself the advantage next time when trying to influence change. At this point, you can likely just hope to use it as a learning experience.
 
 ## I'm sorry, but you're going to spend a lot of time teaching people about alt text on images.
 
