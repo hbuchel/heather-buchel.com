@@ -60,7 +60,7 @@ At some point you're going to make a recommendation for an accessibility require
 
 And then it's going to backfire. Sometimes spectacularly so. That thing that wasn't a priority is now suddenly deemed very broken and a problem. Higher up people are mad. The word escalation is being used. You're going to be frustrated at the time lost and at the frustrations that were caused to your users because you weren't listened to in the first place.
 
-Maybe keep those in your pocket. Reflect on how you documented the ask; actually, make sure you're documenting accessibility  requirements if you're not already because it might protect you. Off hand or informal conversations in person or over Slack aren't as easy to point to as a requirements doc with big red text that says "BLOCKER". See how you can use it to give you the advantage next time when trying to influence changes. At this point, you can likely just hope to use it as a learning experience.
+Maybe keep those in your pocket. Reflect on how you documented the ask; actually, make sure you're documenting accessibility  requirements if you're not already because it might protect you. Off hand or informal conversations in person or over Slack aren't as easy to point to as a requirements doc with big red text that says "BLOCKER". See how you can use it to give yourself the advantage next time when trying to influence change. At this point, you can likely just hope to use it as a learning experience.
 
 ## I'm sorry, but you're going to spend a lot of time teaching people about alt text on images.
 
@@ -111,4 +111,6 @@ This one sucks, because I really like squirelling away and doing a really good j
 
 <hr />
 
-I genuinely want anything and everything that I've struggled with to come easier to developers that are just entering this space. Anything that you would tell them or your younger self? Let me know on Mastodon.
+I genuinely want anything and everything that I've struggled with to come easier to developers that are just entering this space. Anything that you would tell them or your younger self? [Let me know on Mastodon.](https://hachyderm.io/@hbuchel/112085245694658753)
+
+<iframe src="https://hachyderm.io/@hbuchel/112085245694658753/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
