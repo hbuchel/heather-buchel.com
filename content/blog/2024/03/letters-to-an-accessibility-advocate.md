@@ -44,7 +44,7 @@ If anyone tries to tell you "well they did it this way so it must be accessible"
 
 It might seem like a technical reason on the surface level. It requires a code change. But somewhere along the lines of those code changes being made are the people getting in the way. The people saying the deadline can't move. The people saying "well it was like this before so we're not changing it." The people with no imagination. The people who value the short term over the long.
 
-You'll hear that excuse a lot and it's amazing how quickly those technical challenges can vanish when the people in change change.
+You'll hear that excuse a lot and it's amazing how quickly those technical challenges can vanish when the people in charge change.
 
 ## You're going to spend a lot of time trying to influence people.
 
