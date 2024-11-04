@@ -4,7 +4,7 @@
 	"description": "Website for heather-buchel.com",
 	"type": "module",
 	"scripts": {
-		"build": "npm run css && npx @11ty/eleventy",
+		"build": "npx @11ty/eleventy",
 		"css": "lightningcss --minify --bundle --targets \">= 0.25%\" content/styles/style.css -o public/styles/style.css",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
