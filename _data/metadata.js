@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "Heather Buchel",
 	url: "https://heather-buchel.com/",
 	language: "en",

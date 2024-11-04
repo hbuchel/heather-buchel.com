@@ -2,8 +2,10 @@
 	"name": "heather-buchel-website",
 	"version": "1.0.0",
 	"description": "Website for heather-buchel.com",
+	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "npm run css && npx @11ty/eleventy",
+		"css": "lightningcss --minify --bundle --targets \">= 0.25%\" content/styles/style.css -o public/styles/style.css",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
@@ -24,16 +26,17 @@
 		"node": ">=14"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1",
-		"@11ty/eleventy-img": "^3.1.0",
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-img": "^5.0.0",
 		"@11ty/eleventy-navigation": "^0.3.5",
-		"@11ty/eleventy-plugin-bundle": "^1.0.4",
-		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-rss": "^2.0.2",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"luxon": "^3.3.0",
-		"markdown-it-anchor": "^8.6.7"
-	},
-	"dependencies": {
-		"@11tyrocks/eleventy-plugin-lightningcss": "^1.1.2"
+		"cross-env": "^7.0.3",
+		"lightningcss-cli": "^1.28.1",
+		"luxon": "^3.5.0",
+		"markdown-it-anchor": "^8.6.7",
+		"zod": "^3.23.8",
+		"zod-validation-error": "^3.3.1"
 	}
+	
 }
