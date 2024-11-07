@@ -85,8 +85,6 @@ export default async function (eleventyConfig) {
 			let targets = browserslistToTargets(browserslist("> 0.2% and not dead"));
 
 			return async () => {
-				// Switch to the `transform` function if you don't
-				// plan to use `@import` to merge files
 				let { code } = bundle({
 					filename: inputPath,
 					minify: true,
