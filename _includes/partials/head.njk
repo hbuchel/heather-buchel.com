@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title or metadata.title }}</title>
+<meta name="description" content="{{ description or metadata.description }}">
+
+
+<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+<meta property="og:image" content="{{ socialImage or metadata.image }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="315">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hbuchel" />
+<meta name="twitter:title" content="{{ title or metadata.title }}" />
+<meta name="twitter:description" content="{{ description or metadata.description }}" />
+<meta name="twitter:image" content="{{ socialImage or metadata.image }}" />
+
+
+<meta name="generator" content="{{ eleventy.generator }}">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="webmention" href="https://webmention.io/heather-buchel.com/webmention" />
+<link rel="pingback" href="https://webmention.io/heather-buchel.com/xmlrpc" />

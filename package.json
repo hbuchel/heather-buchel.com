@@ -5,7 +5,9 @@
 	"type": "module",
 	"scripts": {
 		"build": "npm run css && npx @11ty/eleventy",
-		"css": "lightningcss --minify --bundle --targets \">= 0.25%\" content/styles/style.css -o public/styles/style.css",
+		"css": "npm run css:main && npm run css:now",
+		"css:main": "lightningcss --minify --bundle --targets \">= 0.25%\" content/styles/style.css -o public/styles/style.css",
+		"css:now": "lightningcss --minify --bundle --targets \">= 0.25%\" content/styles/now.css -o public/styles/now.css",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
@@ -38,5 +40,4 @@
 		"zod": "^3.23.8",
 		"zod-validation-error": "^3.3.1"
 	}
-	
 }
