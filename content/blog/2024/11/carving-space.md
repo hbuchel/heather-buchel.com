@@ -3,7 +3,7 @@ title: Carving your space
 description: Doing the work you love is hard when teams don't hire for it.
 date: 2024-11-12
 tags: [the front-end space]
-socialImage: https://heather-buchel.com/social-images/a-letter-to-myself.png
+socialImage: https://heather-buchel.com/social-images/carving-your-space.png
 ---
 
 As I'm currently looking for my next role, I've had to do serious reflection on the work I actually want to do. My conclusion from this reflection is that teams generally **don't** hire for the work I really like, with some rare exceptions. This is why I almost always end up carving out my own space.
