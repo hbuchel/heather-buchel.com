@@ -2,7 +2,7 @@
 title: It's 2023, here is why your web design sucks.
 description: Exploring the reasons why we no longer have web designers.
 date: 2023-10-24
-tags: [design]
+tags: [design, the front-end space]
 socialImage: https://heather-buchel.com/social-images/here-is-why-your-design-sucks.png
 ---
 

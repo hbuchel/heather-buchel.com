@@ -12,6 +12,7 @@
 	flex-direction: column;
 	background: var(--card-background-color);
 	box-shadow: 10px 10px 0 var(--color-green-30);
+	justify-content: center;
 	transition: background-color .2s ease-out;
 }
 .card:nth-of-type(2) {
@@ -25,7 +26,7 @@
 	font-size: 1.6rem;
 	color: var(--color-neutral-70);
 	font-weight: 900;
-	margin-bottom: var(--space-large);
+	margin-bottom: var(--space-xs);
 }
 
 .card__link {
@@ -62,7 +63,6 @@
 }
 .card__date {
 	position: relative;
-	margin-top: auto;
 	display: block;
 	color: var(--color-neutral-60);
 	pointer-events: none;
