@@ -33,9 +33,6 @@ ul {
   margin: 0;
 }
 
-ul > li + li {
-  margin-top: var(--space-xxxs);
-}
 
 .source {
   font-size: var(--font-size-xs);
