@@ -11,9 +11,5 @@ Anyways, here is mine. I'm back at this for a few reasons:
 - **I've been looking into other social platforms lately.** I've joined Mastodon, Pixelfed, and Bluesky. Those fulfill the online social space that Twitter left. Still, I'd like to have a place for putting some words to screen that don't fit the format of a thread on those sites.
 - **Work**. Companies are laying off people left and right, and that makes me feel uneasy about my job that I feel lucky to still have. Time to get my online space back in shape so I have somewhere to send people to if/when the time comes.
 
-<blockquote class="bq bq--right">
-I whole heartedly miss being enthusiastic about building things on the web.
-</blockquote>
-
 The main reason, though, I miss tinkering on the web. I've been at this web developer thing for a while now, which means my career has taken me from "Person that spends every waking moment experimenting with new web tech and making wonderful things with CSS" to "Person that spends most of their time consulting for other people, writing docs, attending meetings, and for whatever reason, writing A LOT of javascript". I whole heartedly miss being enthusiastic about building things on the web. I think it's a crucial time to get back to that; especially as we watch multiple platforms destroy themselves and the spaces people created with them.
 

@@ -4,6 +4,8 @@ description: Exploring the reasons why we no longer have web designers.
 date: 2023-10-24
 tags: [design, the front-end space]
 socialImage: https://heather-buchel.com/social-images/here-is-why-your-design-sucks.png
+blueskyPostId: 3kclfky7nuw2n
+mastodonPostId: "111293064526647885"
 ---
 
 **TLDR:** At some point, we told design they couldn't sit with us anymore, and surprise! It backfired! Now, not only has the field and profession of web design suffered, but also, we build shitty websites.
@@ -13,10 +15,6 @@ As I was writing this, I noticed how weird it felt using the term web designer. 
 </aside>
 
 ## Web designers
-
-<blockquote class="bq bq--right">
-...the boys in the industry at this time made it known that we were not "real" developers.
-</blockquote>
 
 When I was first considering going into web development as a job, well before 2010, I didn't know what title to use. I spent countless hours in Photoshop, the design tool at the time, and equal amounts of time writing HTML, CSS, and JS. I didn't feel like a programmer; even though I took some Java, SQL, and C++ classes in college. And, the boys in the industry at this time made it known that we were not "real" developers. More on this later.
 
@@ -34,8 +32,6 @@ At some point, loosely around 2010*, it started to become more acceptable to ado
 
 I don't know how else to answer this, besides: the gendering of design as women's work is why people don't use the title "web designer" anymore. It's been belittled and othered away. It's why we've split that web design role into two; now you're either a UX designer and you can sit at that table _over there_ or you're a front-end developer and you can sit at the table with the people that build websites.
 
-<blockquote class="bq bq--right">the gendering of design as women's work is why people don't use the title "web designer" anymore.</blockquote>
- 
 What happened around that time, in 2010 or so, that I mentioned? Well, the area of front-end work, which has been heavily gendered as "feminine" work, was finally being viewed as "serious" or "real" programming* because, to no one's surprise, something that is designed well is good for business. As a "real" career option for developers, now men are interested. You're welcome.
 
 <aside class="aside">
@@ -73,8 +69,6 @@ On the other hand, if your engineering team has no front-of-the-front-end engine
 
 ## Design decisions can only be pushed so far to the left before we realize the system is broken
 
-<blockquote class="bq bq--right">At what point do we stop and realize that we often set our design teams up for failure?</blockquote>
-
 We often talk about decisions that need to be made further left in the product development cycle. If only we could address accessibility, sooner. If only we could have understood how the API was going to work, sooner. I often feel like I'm ping ponging between these two scenarios:
 
 - "We would have caught this sooner if engineering was more involved in the design process".
@@ -97,6 +91,3 @@ Here are some other articles that this topic always makes me think of:
 - [Tailwind and the Femininity of CSS](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css) by Elaina Natario
 - [front-of-the-front-end and back-of-the-front-end web development](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) by Brad Frost
 
-[Yell at me very politely on Mastodon about all of this!](https://hachyderm.io/@hbuchel/111293064526647885) 
-
-<iframe src="https://hachyderm.io/@hbuchel/111293064526647885/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>

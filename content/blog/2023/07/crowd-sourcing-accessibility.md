@@ -41,7 +41,6 @@ There is always this slew of replies given when you bring up that a product open
 **Please stop doing this**. 
 
 ### But it's a small team!
-<blockquote class="bq bq--right">If you're doing something so ambitious, like creating a product to replace Twitter, it's your responsibility to find the right people.</blockquote>
 
 If you're mantaining an open source product that includes a UI that people use, you need to attract people that build UI to your product. Invite them. Seek them out. Hire them. Show them how they can contribute if they are not code writers or if they don't use your specific framework/tech stack/etc. If you're doing something so ambitious, like creating a product to replace Twitter, it's your responsibility to find the right people.
 
@@ -50,8 +49,6 @@ I have a whole list of ideas for how to attract people to your project that don'
 </aside>
 
 Twitter and Reddit are examples of apps where open source platforms are springing up to replace them. But it should not be overlooked that these platforms were used for community building. For mutual aid. For activism and raising awareness. We're not talking about replacing your go-to linting library or image minification tool. We're talking about services that some have argued should be a public utility; that is how important they have become.
-
-<blockquote class="bq bq--right" style="--span: 1">R.I.P. to the Twitter accessibility team.</blockquote>
 
 This excuse has even less weight for a product like BlueSky, which is funded by Jack Dorsey. They are bankrolled. Hire disabled people. 
 

@@ -4,14 +4,13 @@ description: Something something about once you're a nazi bar you're always a na
 date: 2023-09-17
 tags: [community, accessibility]
 socialImage: https://heather-buchel.com/social-images/js-community-twitter.png
+mastodonPostId: "111081583133963318"
 ---
 
 **A disclaimer to start this out: If you feel like I'm talking about you and this has you in your feelings, yes, I am.**
 
 
 This weekend's discourse around accessibility validated my decisions to not carry out work there. I largely stopped posting on Twitter many months ago; minus the random check in, to reply to a peer's post, or just throw out a few likes. Since moving to Mastodon and Bluesky, I get my fix of posts and interactions with the web, disabled, and accessibility communities I still love and activists I follow.
-
-<blockquote class="bq bq--right">Isn't it curious that the only time the JS community on Twitter rallies around accessibility discussions is when they get to feel the victim for being "shamed" for not caring about accessibility? Strange how that works.</blockquote>
 
 I don't want to link specific tweets because I honestly don't care to send people into that. If you saw the announcement of v0.dev, you can probably find them on your own. That is, if Twitter lets you since they seem to mostly surface the scum of the earth verified account replies. <a href="https://heather-buchel.com/blog/2023/09/ai-generated-ui-is-not-innovative/#we-ve-been-here-before">I touched on this discourse a little in this post about ai generated UI</a> if you want to go hunting. You'll probably have seen some of the larger tech accounts in the JS world mention it also.
 
@@ -46,8 +45,6 @@ Then, yes. You are also a part of the problem in this discourse. Your "well actu
 
 You're also missing the point entirely and you're jumping through hoops to ignore the fact that an accessibility advocate nicely brought up feedback in a public forum **where it is entirely appropriate and expected to do so** and a large amount of replies were, at best, incredibly toxic and at worst, espousing nazi rhetoric.
 
-<blockquote class="bq bq--right"> It's because somebody had the nerve to even bring up accessibility that people got in their feelings.</blockquote>
-
 If you find yourself thinking "but I rarely see stuff like this, this is a minority and not indicitave of what it's like here" please understand that you are probably in a position to easily keep your head in the sand.
 
 If you think "But I'm a member of the JS community that is predominantly on Twitter and I'm an accessibility advocate" then why didn't you show up in support of the very normal and reasonable feedback and leave it at that? Why didn't you bring up any of the accessibility features you'd have liked to see included? None of the feedback regarding accessibility that I saw was mean or attacking anybody. It's because somebody had the nerve to even bring up accessibility that people got in their feelings.
@@ -57,7 +54,3 @@ Why aren't you using other platforms where a lot of accessibility advocates move
 The cynic in me understands that the very "bad" people are important to paying your bills at the end of the month. Or, they're who make you feel popular in the web community. Maybe think about that.
 
 This is what is left of the JS community on Twitter.
-
-<a href="https://hachyderm.io/@hbuchel/111081583133963318">I posted this on Mastodon here.</a>
-
-<iframe src="https://hachyderm.io/@hbuchel/111081583133963318/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>

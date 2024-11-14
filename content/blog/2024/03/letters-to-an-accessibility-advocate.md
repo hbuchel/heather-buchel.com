@@ -4,6 +4,8 @@ description: All of the things I get to say "I told you so" about, now.
 date: 2024-03-12
 tags: [accessibility]
 socialImage: https://heather-buchel.com/social-images/a-letter-to-myself.png
+blueskyPostId: 3kno2z52sck2x
+mastodonPostId: "112085245694658753"
 ---
 
 I thought I'd make a list of things I wish I could go back and tell my younger self as a web developer who was just beginning to lean into web accessibility as part of her career path.
@@ -16,10 +18,6 @@ So here are some things that I wish I knew when I was first starting out:
 
 ## Blog posts and articles are great, but seek out the experience and opinions of Disabled users.
 
-<blockquote class="bq bq--right">
-I'm still surprised at how many developers have never watched someone use a screen reader on the thing they've created. 
-</blockquote>
-
 I first started getting into HTML and building things on the web when web standards were still becoming A Thing. I didn't have any mentors besides the people I looked up to online. But I gobbled up any articles and guides I could find on how to go about making an accessible website.
 
 Advocates are great. I call myself that. I do my best. But I, and the articles you find online, are not going to be a replacement for getting your product in the hands of actual Disabled users and having them test your application.
@@ -29,10 +27,6 @@ I will never forget when I watched for the first time a Blind user navigate arou
 Seek out this experience. You'll probably feel uncomfortable depending on your relationship and experience with disabilities or the Disability community; you might even feel a little ashamed at how well you discover your software can actually be used. But it is the only way things will improve.
 
 ## Don't fall into the "Well they did it, so its ok if we do, too" trap.
-
-<blockquote class="bq bq--right">
-...given the general erosion in tech we're experiencing now, especially from Big Tech with AI type of places, they might be the worst examples to follow.
-</blockquote>
 
 I remember when I first started out in this career thinking anyone that worked at [INSERT FAANG OR BIG TECH COMPANY HERE] had to be the smartest and the best. The most knowledgeable. Truly, the most examplary work. 
 
@@ -52,10 +46,6 @@ Ugh. And I hate leading meetings. That never changes. But, it's generally easy t
 
 ## The "I told you so" moments are actually going to sting a little.
 
-<blockquote class="bq bq--right">
-For whatever reason, someone else is going to make the decision that they know better or that whatever analysis they've done has concluded the thing you've asked for isn't needed or isn't a priority.
-</blockquote>
-
 At some point you're going to make a recommendation for an accessibility requirement, and you're going to get shot down. For whatever reason, someone else is going to make the decision that they know better or that whatever analysis they've done has concluded the thing you've asked for isn't needed or isn't a priority.
 
 And then it's going to backfire. Sometimes spectacularly so. That thing that wasn't a priority is now suddenly deemed very broken and a problem. Higher up people are mad. The word escalation is being used. You're going to be frustrated at the time lost and at the frustrations that were caused to your users because you weren't listened to in the first place.
@@ -63,11 +53,6 @@ And then it's going to backfire. Sometimes spectacularly so. That thing that was
 Maybe keep those in your pocket. Reflect on how you documented the ask; actually, make sure you're documenting accessibility  requirements if you're not already because it might protect you. Off hand or informal conversations in person or over Slack aren't as easy to point to as a requirements doc with big red text that says "BLOCKER". See how you can use it to give yourself the advantage next time when trying to influence change. At this point, you can likely just hope to use it as a learning experience.
 
 ## I'm sorry, but you're going to spend a lot of time teaching people about alt text on images.
-
-<blockquote class="bq bq--right">
-I often think about all of the time for creativity and innovation in the accessibility space that has been squandered...
-</blockquote>
-
 
 Oh, boy. The time I wish I could save from starting back at what always feels like square one with every new team. Unfortunately, this is the state of web development education. People will have senior titles as a front-end engineer, their realm of responsibility will be in the building of user-interfaces, and you'll still be pleading with them to do the basics. 
 
@@ -112,5 +97,3 @@ This one sucks, because I really like squirelling away and doing a really good j
 <hr />
 
 I genuinely want anything and everything that I've struggled with to come easier to developers that are just entering this space. Anything that you would tell them or your younger self? [Let me know on Mastodon.](https://hachyderm.io/@hbuchel/112085245694658753)
-
-<iframe src="https://hachyderm.io/@hbuchel/112085245694658753/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>

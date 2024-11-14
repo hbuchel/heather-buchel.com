@@ -3,11 +3,10 @@ title: Just normal web things.
 description: A plea for us to get back to building websites that can do normal website things.
 date: 2023-07-06
 tags: [web platform]
+mastodonPostId: "110669996408706858"
 ---
 
 We've let ourselves get away from building websites that can do normal web things. I've noticed this a lot recently due to a surge in new social media platforms springing up. Everyone is building new clients, apps, and in some cases, like React Native, attempting to share code across platforms. It's definitely exciting, and I'm actually thrilled that people are building these things.
-
-<blockquote class="bq bq--right" style="--offset: 2"> In the end, it's usually because we've JavaScript'ed our way out of these things.</blockquote>
 
 What is less thrilling is that, nevermind the basic accessibility requirements that are often missing like alt text on images, we stopped letting people do very normal web things. There are a number of avenues to route the blame to: rushing to release something midly usable for testing protocols in the wild, not having a UI engineer on the project, building things in a mobile "touch first" experience and ignoring other inputs or devices; the list goes on. In the end, it's usually because we've JavaScript'ed our way out of these things.
 
@@ -24,4 +23,3 @@ Here are some things I wish people allowed to continue to work in their web proj
 
 I stopped myself from adding a lot of things that would usually fall under accessibility violations though there is definitely a lot of crossover in the list above. What did I miss? <a href="https://hachyderm.io/@hbuchel/110669996408706858">Let me know on Mastodon.</a>
 
-<iframe src="https://hachyderm.io/@hbuchel/110669996408706858/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://hachyderm.io/embed.js" async="async"></script>
