@@ -1,5 +1,6 @@
 .page {
 	display: grid;
+	gap: var(--space-xxl);
 }
 
 .page__primary {
@@ -52,7 +53,6 @@
 }
 
 .social-name {
-	
 	font-weight: 700;
 }
 
@@ -89,7 +89,7 @@
 @media (min-width: 900px) {
 	.page {
 		grid-template-columns: 2fr 1fr;
-		gap: var(--space-xxl);
+		
 	}
 	
 	.page__header {
