@@ -32,10 +32,7 @@ a:hover {
 	margin: 0 auto;
 }
 
-.section__title {
-	margin-bottom: var(--space-large);
-	font-size: 1.4rem;
-}
+
 
 .plain-list {
 	display: inline-block;
@@ -100,10 +97,13 @@ a:hover {
 	border-bottom: none;
 }
 
-h2.article__heading {
+.article__heading {
 	font-size: var(--font-size-large);
 	margin: 0 0 var(--space-xs);
 	max-inline-size: 50ch;
+}
+.article__heading--small {
+	font-size: var(--font-size-small);
 }
 .article p {
 	margin: 0;
@@ -117,6 +117,7 @@ a.article__link:hover {
 }
 .article__date {
 	color: var(--color-neutral-60);
+	font-size: var(--font-size-xxs);
 }
 
 .header-anchor {
