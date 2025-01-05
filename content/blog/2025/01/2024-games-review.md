@@ -61,10 +61,6 @@ Scratches my brain **so good**. If you like anything to do with recognizing patt
 
 I don't usually like games that are "scary" but this was so much fun to play with friends. It's a good amount of silly mixed into it. It's a multiplayer survival game where you are working your way through a research lab and fighting the anomalies that have broken through.
 
-### Lethal Company
-
-Another banger that was great to play with friends. I stayed at the ship a lot to direct my friends over walkie talkie, so even though it's a "scary" game, it was still so much fun. (Also, still entirely scary being in the ship by yourself).
-
 ### Planet Crafter
 
 Really good game to get stuck into and play for hours at a time. You can play multiplayer but I got enough enjoyment out of it solo. I was so excited when my world finally had frogs.
@@ -103,4 +99,4 @@ I played this alone right on release into early access. Probably too early to ha
 
 <hr />
 
-The standout for me this year as far as fun factor was probably Lethal Company. Not necessarily the one I played the most, but it definitely came with the most laughs. The War Within WoW expansion was probably my most anticipated (and most played). Blizzard's world designers deserve far more accolades than they get. What were your favorites this year?
+I don't have any standouts for this year as for as new games. I originally included Lethal Company, because it's the last game I remember laughing that much in, until I realized I last played that in 2023! The War Within WoW expansion was probably my most anticipated (and most played). Blizzard's world designers deserve far more accolades than they get. What were your favorites this year?
