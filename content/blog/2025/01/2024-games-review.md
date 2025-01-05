@@ -75,7 +75,7 @@ Look, I think we need to let go of making new games look "retro" or old on purpo
 
 ### Pax Dei
 
-Didn't play. It was a game that looked too good to be true. When early access rolled around and people started streaming it, I got the vibe it probably wasn't for me. My main issue, is really I feel too old now to play games that require me to be online for large amounts of time AND to play with a huge group of people. That's my issue with most games in the sandbox genre; when the population falls off, there usually isn't much of a game to play on your own or with a smaller group. Which is a shame, because they always SOUND fun, but without other gameplay loops besides grinding materials and pvping in large groups, I'm always dissapointed in the actual fun-ness of them. Maybe it's too early, and I'll give it a little more time to cook.
+Didn't play. It was a game that looked too good to be true. This was even [a thought I had early on](https://mstdn.games/@hebby/111739154263350420) when it was announced. When early access rolled around and people started streaming it, I got the vibe it probably wasn't for me. My main issue, is really I feel too old now to play games that require me to be online for large amounts of time AND to play with a huge group of people. That's my issue with most games in the sandbox genre; when the population falls off, there usually isn't much of a game to play on your own or with a smaller group. Which is a shame, because they always SOUND fun, but without other gameplay loops besides grinding materials and pvping in large groups, I'm always dissapointed in the actual fun-ness of them. Maybe it's too early, and I'll give it a little more time to cook.
 
 ### Ashes of Creation
 
@@ -83,7 +83,7 @@ This is a sandbox game I've stayed interested in, because they've presented it m
 
 ### Palworld
 
-I had no intention of playing this, but after Enshrouded didn't really pan out early on for my friend group, they wanted to give this a try. I didn't get the hype for it. Early on, the building mechanics seem very poorly implemented and just generally not enjoyable from a gameplay aspect. Some of the bosses were fun to fight. Instead of an open world/survival, it probably would have been better as a Monster Hunter + Pokemon ripoff. 
+I had no intention of playing this, but after Enshrouded didn't really pan out early on for my friend group, they wanted to give this a try. I didn't get the hype for it. The building mechanics seemed very poorly implemented and just generally not enjoyable from a gameplay aspect. Some of the bosses were fun to fight. Instead of an open world/survival, it probably would have been better as a Monster Hunter + Pokemon ripoff. I dont intend to return to this one.
 
 ### Throne and Liberty
 
@@ -100,3 +100,7 @@ LOL. Did not play. Not sure if the game is even being made anymore. Probably sho
 ### Nightingale
 
 I played this alone right on release into early access. Probably too early to have an opinion on it. I don't feel super inclined to return to it. Honestly, I'm probably spent on the sandbox genre.
+
+<hr />
+
+The standout for me this year as far as fun factor was probably Lethal Company. Not necessarily the one I played the most, but it definitely came with the most laughs. The War Within WoW expansion was probably my most anticipated (and most played). Blizzard's world designers deserve far more accolades than they get. What were your favorites this year?
