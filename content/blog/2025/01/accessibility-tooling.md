@@ -1,7 +1,7 @@
 ---
 title: Accessibility tooling and good intentions
 description: Your accessibility tooling deserves the same first class treatment as the rest of your stack.
-date: 2025-01-29
+date: 2025-01-30
 tags: [accessibility, tooling]
 socialImage: https://heather-buchel.com/social-images/accessibility-tooling.png
 ---
