@@ -7,10 +7,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: var(--font-size-xxxl);
   max-inline-size: 26ch;
+  text-wrap: pretty;
 }
 
 h2 {
   font-size: var(--font-size-xxl);
+  text-wrap: pretty;
 }
 
 h3 {
@@ -31,6 +33,9 @@ h6 {
 
 ul {
   margin: 0;
+}
+.page__content ul li, .page__content ol li {
+  text-wrap: pretty;
 }
 
 
