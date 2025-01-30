@@ -29,7 +29,7 @@ It's a great start, and it's a position I've been in countless times, playing th
 1) The accessibility advocate or team is too far removed from engineering. They can't give guidance or give better technical advice if they are too far removed; they need to be familiar with the technical details of the stack to know where tooling can actually be added.
 2) The tooling suggested isn't actually made mandatory, it's a nice to have that they run if they remember or have time.
 
-## Often, accessibility engineers are too farm removed from the tech stack
+## Often, accessibility engineers are too far removed from the tech stack
 
 #1 can be helped by having engineers that are focused on accessibility as part of your actual team. Hiring full-stack engineers often doesn't tick that box and it's silly to expect it might. Sure you can get lucky, but the spectrum of front-end engineering is far too vast now. If you're a manager, aim for more well rounded teams. If you're the accessibility engineer yourself, and you're not directly on the team, ask if you can have access to the existing tools and tech stack. You'll need to know what they are already working with.
 
