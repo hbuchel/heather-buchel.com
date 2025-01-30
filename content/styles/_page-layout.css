@@ -15,9 +15,9 @@
 }
 
 .page__content {
-	display: grid;
-	row-gap: var(--space-xl);
-	grid-template-columns: 1fr;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-medium);
 }
 
 .page__description {
