@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ metadata.language }}">
 	<head>
-		
+		{% include "../partials/head.njk" %}
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +13,7 @@
 	</head>
 	<body>
 		
-		<div class="social-share-card">
-            <div>
-                <h1></h1>
-                <h2></h2>
-                <div class="social-share-footer">
-                    <img src="/img/me.jpg" /> <div>heather buchel</div>
-                </div>
-            </div>
-        </div>
-		
+        {{ content | safe }}
+				
 	</body>
 </html>
