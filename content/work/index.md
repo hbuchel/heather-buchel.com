@@ -10,7 +10,8 @@ As a front-end engineer, my area of focus is accessibility and user interface de
 
 ## Current work
 
-Currently, I work as a front-end engineer at Amazon in AWS. I work with other front-end engineers, software development engineers and UX designers in the Amplify org to build our open source UI library <a href="https://github.com/aws-amplify/amplify-ui">Amplify UI</a>.
+Currently, I am a senior front-end engineer at Squarespace on the Web Accessibility and Performance team.
+
 
 ## Future work
 
@@ -21,6 +22,9 @@ I enjoy working on the front-of-the-front end. You can find <a href="https://bra
 - I'm able to collaborate with back-end engineers to ensure our work on the back-end supports our UX and vice versa.
 
 ## Previous work
+
+### AWS Amplify
+2022-2024: I worked as a front-end engineer in AWS. I worked with other front-end engineers, software development engineers and UX designers in the Amplify org to build our open source UI library Amplify UI.
 
 ### Amazon Advertising
 2019 to 2022: I worked at Amazon in the Advertising org. Part of this time I worked as a design technologist, building landing pages and prototyping new ad axperiences on Amazon.com. During this time, I transitioned to a front-end engineering role so that I could support our ad products for high traffic events.
