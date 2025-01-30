@@ -4,6 +4,8 @@ description: Your accessibility tooling deserves the same first class treatment 
 date: 2025-01-30
 tags: [accessibility, tooling]
 socialImage: https://heather-buchel.com/social-images/accessibility-tooling.png
+blueskyPostId: 3lgy2e23v6k2x
+mastodonPostId: "113918572897263186"
 ---
 
 <div class="aside">
