@@ -38,6 +38,10 @@ ul {
   text-wrap: pretty;
 }
 
+.page__content ul li:not(:last-child), .page__content ol li:not(:last-child) {
+  margin-bottom: var(--space-xxxs);
+}
+
 
 .source {
   font-size: var(--font-size-xs);

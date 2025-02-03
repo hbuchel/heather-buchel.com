@@ -15,7 +15,7 @@ hr {
 }
 
 a {
-	color: hsl(290, 14%, 33%);
+	color: var(--color-blue-70);
 	text-decoration: underline;
 }
 a:hover {
@@ -49,7 +49,7 @@ a:hover {
 }
 .social-link svg {
 	width: 20px;
-	color: var(--color-red-50);
+	color: var(--color-blue-50);
 }
 
 .social-link:hover svg {
@@ -91,7 +91,6 @@ a:hover {
 
 .article {
 	padding-bottom: var(--space-large);
-	border-bottom: 1px dashed var(--color-green-30);
 }
 .article:last-of-type {
 	border-bottom: none;
@@ -99,12 +98,14 @@ a:hover {
 
 .article__heading {
 	font-size: var(--font-size-large);
-	margin: 0 0 var(--space-xs);
+	margin: 0 0 var(--space-xxxs);
 	max-inline-size: 50ch;
 }
-.article__heading--small {
-	font-size: var(--font-size-small);
+.article__desc {
+	max-inline-size: 60ch;
+	text-wrap: pretty;
 }
+
 .article p {
 	margin: 0;
 }

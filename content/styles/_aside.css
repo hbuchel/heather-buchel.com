@@ -1,5 +1,5 @@
 .aside {
-	background: var(--color-green-10);
+	background: hsla(0, 0%, 0%, .04);
   padding: var(--space-large);
 }
 
