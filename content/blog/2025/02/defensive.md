@@ -4,6 +4,8 @@ description: Talking about how stakeholders get in their feelings when discussin
 date: 2025-02-12
 tags: [accessibility]
 socialImage: https://heather-buchel.com/social-images/defensive.png
+blueskyPostId: 3lhytlg4r722l
+mastodonPostId: "113992408756319884"
 ---
 
 I was just thinking about how people can get very defensive when you bring up accessibility issues that need to be addressed and how it differs depending on your audience.
