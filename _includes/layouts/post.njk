@@ -91,11 +91,11 @@ layout: layouts/base.njk
 			</svg>
 			Previous
 		</span>
-		<h3 class="card__heading">
-			<a href="{{ previousPost.url }}" class="card__link">
-				<span class="card__link__text">{{ previousPost.data.title }}</span>
-			</a>
-		</h3>
+		
+		<a href="{{ previousPost.url }}" class="card__link">
+			<span class="card__link__text">{{ previousPost.data.title }}</span>
+		</a>
+		
 		<time class="card__date" datetime="{{ previousPost.date | htmlDateString }}">{{ previousPost.date | readableDate("DD") }}</time>
 	</article>
 	{% endif %}
@@ -108,11 +108,11 @@ layout: layouts/base.njk
 				</svg>
 				
 			</span>
-			<h2 class="card__heading">
-				<a href="{{ nextPost.url }}" class="card__link">
-					<span class="card__link__text">{{ nextPost.data.title }}</span>
-				</a>
-			</h2>
+			
+			<a href="{{ nextPost.url }}" class="card__link">
+				<span class="card__link__text">{{ nextPost.data.title }}</span>
+			</a>
+			
 			<time class="card__date" datetime="{{ nextPost.date | htmlDateString }}">{{ nextPost.date | readableDate("DD") }}</time>
 		</article>
 	{% endif %}
