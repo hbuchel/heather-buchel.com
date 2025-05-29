@@ -27,7 +27,7 @@
 }
 
 .post-date {
-	margin-top: var(--space-small);
+	margin-top: var(--space-xxxs);
 	display: block;
 }
 
@@ -89,7 +89,7 @@
 @media (min-width: 900px) {
 	.page {
 		grid-template-columns: 2fr 1fr;
-		
+		gap: var(--space-xxl) calc(var(--space-xxl) * 2);
 	}
 	
 	.page__header {

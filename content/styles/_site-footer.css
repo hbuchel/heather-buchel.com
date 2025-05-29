@@ -1,6 +1,6 @@
 .site-footer {
-	background: var(--color-green-10);	
-	border-top: 10px solid rgba(0,0,0,.2);
+	background: hsl(0, 0%, 96%);	
+	border-top: 10px solid hsl(0, 0%, 90%);
 	padding: var(--space-xxl) 0;
 	margin-top: auto;
 	
