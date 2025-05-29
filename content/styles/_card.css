@@ -22,17 +22,14 @@
 	background-color: var(--color-teal-10);
 }
 
-.card__heading {
+.card__link {
 	font-size: 1.6rem;
 	color: var(--color-neutral-70);
 	font-weight: 900;
 	margin-bottom: var(--space-xs);
-}
-
-.card__link {
-	color: inherit;
 	text-decoration: none;
 	transition: all .2s ease-out;
+	line-height: var(--line-height-small);
 }
 .card__link:focus {
 	outline: none;
