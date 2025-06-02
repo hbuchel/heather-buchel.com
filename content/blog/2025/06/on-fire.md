@@ -1,6 +1,7 @@
 ---
-title: "The trash pile is on fire."
-description: Thinking about the parts of the web/tech industry we effectively lit on fire and probably aren't going to get back.
+title: "The trash pile is on fire"
+description: The parts of the web/tech industry we lit on fire and probably aren't going to get back.
+socialImage: https://heather-buchel.com/social-images/trash-fire.png
 date: 2025-06-02
 tags: [the front-end space, community]
 ---
