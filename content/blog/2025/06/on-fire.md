@@ -4,6 +4,8 @@ description: The parts of the web/tech industry we lit on fire and probably aren
 socialImage: https://heather-buchel.com/social-images/trash-fire.png
 date: 2025-06-02
 tags: [the front-end space, community]
+blueskyPostId: 3lqnvylhbzs2w
+mastodonPostId: "114616332932079269"
 ---
 
 I was thinking about parts of the web community/industry that we've lost in the past 5 years or so and speculating on some of the reasons why. No right answers nor thoroughly thought out, and I'll definitely miss some, but wanted to throw these thoughts into my own little space before I forget them. We haven't completely lost everything in this list, for better or worse. Some have been pretty top of mind as of late with some discussions around "AI taking our jobs" and whatnot.
