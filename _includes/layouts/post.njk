@@ -2,129 +2,98 @@
 layout: layouts/base.njk
 ---
 
-<div class="page">
-	
-	<div class="page__header">
+
 		<h1>{{ title }}</h1>
-		<time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-		<p class="page__description">{{ description }}</p>
-		{%- if originalArticleUrl %}
-			- <a class="post-link" href={{originalArticleUrl}}>
-				<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="1rem" viewBox="0 0 640 512"><path fill="currentColor" d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
-				{{ originalArticleTitle }}
-			</p>
-		{% endif %}
-	</div>
-	<div class="page__content">
-		{{ content | safe }}
-	</div>
+		<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+		<p>
+			{{ description }}
+			{%- if originalArticleUrl %}
+			- <a href={{originalArticleUrl}}>
+					<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="1rem" viewBox="0 0 640 512"><path fill="currentColor" d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
+					{{ originalArticleTitle }}
+				</a>
+			{% endif %}
+		</p>
+		<div>
+			{{ content | safe }}
+		</div>
 
 
-	<div class="page__meta">
+	
 		{%- if blueskyPostId or mastodonPostId %}
-			<h2 class="social-title">Continue the conversation:</h2>
+			<h2>Continue the conversation:</h2>
 		{% endif %}
 		{%- if blueskyPostId %}
-			<a class="social-post" href="https://bsky.app/profile/heather-buchel.com/post/{{blueskyPostId}}">
-				<svg class="social-icon" aria-label="On Bluesky" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<a href="https://bsky.app/profile/heather-buchel.com/post/{{blueskyPostId}}">
+				<svg aria-label="On Bluesky" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path fill="#1185FE" d="M4.33531 2.18911C6.62813 3.9163 9.09469 7.41786 10 9.29693V14.2601C10 14.1544 9.95938 14.2738 9.87188 14.531C9.39938 15.9235 7.55375 21.3582 3.33344 17.0135C1.11125 14.726 2.14 12.4385 6.185 11.7479C3.87094 12.1429 1.26937 11.4901 0.555625 8.93068C0.35 8.19443 0 3.65943 0 3.04693C0 -0.0211995 2.68094 0.943176 4.33531 2.18911ZM15.6647 2.18911C13.3719 3.9163 10.9053 7.41786 10 9.29693V14.2601C10 14.1544 10.0406 14.2738 10.1281 14.531C10.6006 15.9235 12.4463 21.3582 16.6666 17.0135C18.8888 14.726 17.86 12.4385 13.815 11.7479C16.1291 12.1429 18.7306 11.4901 19.4444 8.93068C19.65 8.19443 20 3.65943 20 3.04693C20 -0.0211995 17.3194 0.943176 15.6647 2.18911Z" />
 				</svg>
-				<div class="social-content">
-					<div class="social-name">@heather-buchel.com</div>
-					<bluesky-post postId={{blueskyPostId}}></bluesky-post>
-				</div>
+				@heather-buchel.com
+				<bluesky-post postId={{blueskyPostId}}></bluesky-post>
 			</a>
 		{% endif %}
 		{%- if mastodonPostId %}
-			<a class="social-post" href="https://hachyderm.io/@hbuchel/{{mastodonPostId}}">
-				<svg class="social-icon" aria-label="On Mastodon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<a href="https://hachyderm.io/@hbuchel/{{mastodonPostId}}">
+				<svg aria-label="On Mastodon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path fill="#563ACC" fill-rule="evenodd" clip-rule="evenodd" d="M14.2715 15.2439C16.7728 14.9446 18.9505 13.4006 19.2243 11.9898C19.6556 9.76738 19.62 6.56631 19.62 6.56631C19.62 2.22771 16.7828 0.955993 16.7828 0.955993C15.3522 0.297725 12.8957 0.0209043 10.3436 0H10.2809C7.72878 0.0209043 5.2739 0.297725 3.84324 0.955993C3.84324 0.955993 1.0059 2.22771 1.0059 6.56631C1.0059 6.82934 1.00455 7.106 1.00313 7.394C0.99921 8.19379 0.994857 9.08124 1.01795 10.0074C1.12098 14.2503 1.79437 18.432 5.70992 19.4703C7.51529 19.949 9.06531 20.0492 10.3137 19.9805C12.5776 19.8548 13.8484 19.1711 13.8484 19.1711L13.7737 17.5254C13.7737 17.5254 12.1559 18.0365 10.3391 17.9743C8.53896 17.9124 6.63863 17.7797 6.34749 15.5655C6.3206 15.371 6.30715 15.163 6.30715 14.9446C6.30715 14.9446 8.0742 15.3774 10.3137 15.4801C11.683 15.5431 12.9672 15.3998 14.2715 15.2439ZM16.2733 12.1563V6.90289C16.2733 5.82925 16.0004 4.97605 15.4525 4.34483C14.8872 3.71361 14.147 3.39002 13.2283 3.39002C12.1651 3.39002 11.3601 3.79938 10.8279 4.6182L10.3103 5.48723L9.79296 4.6182C9.26069 3.79938 8.45565 3.39002 7.39259 3.39002C6.47377 3.39002 5.7336 3.71361 5.16841 4.34483C4.62032 4.97605 4.34746 5.82925 4.34746 6.90289V12.1563H6.42483V7.05731C6.42483 5.98247 6.87623 5.43691 7.77913 5.43691C8.77744 5.43691 9.27786 6.08409 9.27786 7.36379V10.1547H11.343V7.36379C11.343 6.08409 11.8433 5.43691 12.8416 5.43691C13.7445 5.43691 14.1959 5.98247 14.1959 7.05731V12.1563H16.2733Z" />
 				</svg>
-				<div class="social-content">
-					<div class="social-name">@hbuchel@hachyderm.io</div>
-					<mastodon-post postId={{mastodonPostId}}></mastodon-post>
-				</div>
+				@hbuchel@hachyderm.io
+				<mastodon-post postId={{mastodonPostId}}></mastodon-post>
 			</a>
 		{% endif %}
 
 		<template id="social-template">
-			<div class="social-text" data-key="postText"></div>
-			<ul class="social-meta">
-				<li class="social-meta__item">
-					<svg class="social-meta__icon" aria-hidden="true"><use href="#reply-icon" /></svg>
-					<div class="social-meta__count"><div data-key="replyCount"></div> <div class="visually-hidden">replies</div></div>
-				</li>
-				<li class="social-meta__item">
-					<svg class="social-meta__icon" aria-hidden="true"><use href="#like-icon" /></svg>
-					<div class="social-meta__count"><div data-key="likeCount"></div> <div class="visually-hidden">Likes</div></div>
-				</li>
-				<li class="social-meta__item">
-					<svg class="social-meta__icon" aria-hidden="true"><use href="#boost-icon" /></svg>
-					<div class="social-meta__count"><div data-key="repostCount"></div> <div class="visually-hidden">Reposts</div></div>
-				</li>
-			</ul>
+			<div data-key="postText"></div>
+					<svg aria-hidden="true"><use href="#reply-icon" /></svg>
+					<div><div data-key="replyCount"></div> <div>replies</div></div>
+			
+					<svg aria-hidden="true"><use href="#like-icon" /></svg>
+					<div><div data-key="likeCount"></div> <div>Likes</div></div>
+			
+					<svg aria-hidden="true"><use href="#boost-icon" /></svg>
+					<div><div data-key="repostCount"></div> <div>Reposts</div></div>
+				
 		</template>
 			
 		
 		{% if tags.length > 1 %}
-			<dl class="meta">
-				<dt>tags</dt>
+			tags
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<dd><a href="{{ tagUrl }}">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</dd>
+			<a href="{{ tagUrl }}">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 			{%- endfor %}
 		{% endif %}
-	</div>
 	
-</div>
 
 {%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<div class="post-nav">
-	{%- if previousPost %}
-	<article class="card card--small post-nav-prev">
-		<span class="card-subtitle">
-			<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 8.70712C-0.0976311 8.31659 -0.0976311 7.68343 0.292893 7.2929L6.65685 0.928941C7.04738 0.538416 7.68054 0.538416 8.07107 0.928941C8.46159 1.31947 8.46159 1.95263 8.07107 2.34315L3.41421 7.00001H21V9.00001H3.41421L8.07107 13.6569C8.46159 14.0474 8.46159 14.6806 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70712Z" fill="currentColor"/>
-			</svg>
-			Previous
-		</span>
-		
-		<a href="{{ previousPost.url }}" class="card__link">
-			<span class="card__link__text">{{ previousPost.data.title }}</span>
-		</a>
-		
-		<time class="card__date" datetime="{{ previousPost.date | htmlDateString }}">{{ previousPost.date | readableDate("DD") }}</time>
-	</article>
-	{% endif %}
-	{%- if nextPost %}
-		<article class="card card--small post-nav-next">
-			<span class="card-subtitle">
-				Next
+<nav aria-label="Next and previous posts">
+	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+	{%- set nextPost = collections.posts | getNextCollectionItem %}
+	{%- if nextPost or previousPost %}
+		{%- if previousPost %}
+			<a href="{{ previousPost.url }}">
+				<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 8.70712C-0.0976311 8.31659 -0.0976311 7.68343 0.292893 7.2929L6.65685 0.928941C7.04738 0.538416 7.68054 0.538416 8.07107 0.928941C8.46159 1.31947 8.46159 1.95263 8.07107 2.34315L3.41421 7.00001H21V9.00001H3.41421L8.07107 13.6569C8.46159 14.0474 8.46159 14.6806 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70712Z" fill="currentColor"/>
+				</svg>
+				<span>Previous</span>
+				{{ previousPost.data.title }}
+				<time datetime="{{ previousPost.date | htmlDateString }}">{{ previousPost.date | readableDate("DD") }}</time>
+			</a>
+		{% endif %}
+		{%- if nextPost %}
+			<a href="{{ nextPost.url }}">
 				<svg style="transform: scaleX(-1)" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 8.70712C-0.0976311 8.31659 -0.0976311 7.68343 0.292893 7.2929L6.65685 0.928941C7.04738 0.538416 7.68054 0.538416 8.07107 0.928941C8.46159 1.31947 8.46159 1.95263 8.07107 2.34315L3.41421 7.00001H21V9.00001H3.41421L8.07107 13.6569C8.46159 14.0474 8.46159 14.6806 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70712Z" fill="currentColor"/>
 				</svg>
-				
-			</span>
-			
-			<a href="{{ nextPost.url }}" class="card__link">
-				<span class="card__link__text">{{ nextPost.data.title }}</span>
+				<span>Next</span>
+				{{ nextPost.data.title }}
+				<time datetime="{{ nextPost.date | htmlDateString }}">{{ nextPost.date | readableDate("DD") }}</time>
 			</a>
-			
-			<time class="card__date" datetime="{{ nextPost.date | htmlDateString }}">{{ nextPost.date | readableDate("DD") }}</time>
-		</article>
-	{% endif %}
-</div>
+		{% endif %}
+	{%- endif %}
 {%- endif %}
-{%- endif %}
-
-
-
 
 <script src="/scripts/social-posts.js" type="module"></script>
-
 
 <svg xmlns="http://www.w3.org/2000/svg">
 	<defs>

@@ -15,11 +15,9 @@
 		{% include "../partials/header.njk" %}
 
 		<main id="skip">
-			<div class="section">
-				<div class="container">
-					{{ content | safe }}
-				</div>
-			</div>
+		
+			{{ content | safe }}
+			
 		</main>
 
 		{% include "../partials/footer.njk" %}
