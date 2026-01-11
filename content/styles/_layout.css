@@ -1,0 +1,7 @@
+.section {
+  padding: var(--space-small);
+}
+.container {
+  max-width: var(--max-width); 
+  margin: 0 auto;
+}

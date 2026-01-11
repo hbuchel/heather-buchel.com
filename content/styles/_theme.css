@@ -1,0 +1,11 @@
+:root {
+  /* space */
+  --space-small: 24px;
+
+  /* widths */
+  --max-width: 900px; 
+  
+  /* line height */
+  --line-height-small: 1.2;
+  --line-height-medium: 1.6;
+}
