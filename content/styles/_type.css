@@ -43,3 +43,7 @@ time {
 a:focus {
   outline: 2px solid #111;
 }
+
+ul, ol {
+  margin-bottom: var(--space-small);
+}
