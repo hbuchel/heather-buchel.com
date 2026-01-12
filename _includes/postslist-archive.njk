@@ -1,14 +1,13 @@
 {% for post in postslist | reverse %}
-	
-		<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DD") }}</time>
-		<h2>
-			<a href="{{ post.url }}">
-				{{ post.data.title }}
-			</a>
-		</h2>
-		
-		{{ post.data.description }}
-	
+<article class="article-compact">
+	<time class="article-compact__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("DD") }}</time>
+	<h2 class="article-compact__title">
+		<a href="{{ post.url }}">
+			{{ post.data.title }}
+		</a>
+	</h2>
+	<p class="article-compact__desc">{{ post.data.description }}</p>
+</article>
 {% endfor %}
 
 

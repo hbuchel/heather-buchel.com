@@ -1,3 +1,45 @@
 h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-small);
+  text-wrap: pretty;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: var(--space-small);
+}
+
+h1 {
+  font-size: var(--font-size-xxxxl);
+  margin-bottom: var(--space-large);
+}
+h2 {
+  font-size: var(--font-size-xxxl);
+}
+h3 {
+  font-size: var(--font-size-xxl);
+}
+h4 {
+  font-size: var(--font-size-xl);
+}
+h5 {
+  font-size: var(--font-size-large);
+}
+h6 {
+  font-size: var(--font-size-medium);
+}
+
+p:not(:last-child) {
+  margin-bottom: var(--space-small);
+}
+
+aside {
+  margin-bottom: var(--space-small);
+}
+
+time {
+  color: #444;
+  font-size: var(--font-size-small);
+}
+
+a:focus {
+  outline: 2px solid #111;
 }

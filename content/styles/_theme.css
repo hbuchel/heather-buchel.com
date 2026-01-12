@@ -1,6 +1,28 @@
 :root {
+  /* font */
+  --font-primary: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+
+  /* font size */
+  --font-size-xs: .96rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.4rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 1.6rem;
+  --font-size-xxxl: 1.8rem;
+  --font-size-xxxxl: 3.2rem;
+  --font-size-xxxxxl: 3.8rem;
+
+  --font-size-base: var(--font-size-medium);
+
   /* space */
-  --space-small: 24px;
+  --space-xxxxs: 6px;
+  --space-xxxs: 10px;
+  --space-xxs: 12px;
+  --space-xs: 14px;
+  --space-small: 18px;
+  --space-medium: 24px;
+  --space-large: 28px;
 
   /* widths */
   --max-width: 900px; 

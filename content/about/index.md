@@ -5,7 +5,7 @@ eleventyNavigation:
   key: About
   order: 2
 ---
-My name is Heather Buchel. I'm a front-end web developer who has been building things on the web with HTML, CSS, and JavaScript for around 20 years. Currently, I work as a front-end engineer at AWS. 
+My name is Heather Buchel. I'm a front-end web developer who has been building things on the web with HTML, CSS, and JavaScript for around 20 years. Currently, I work as an accessibility specialist on a design system team, helping engineers improve the accessibility of our software, one pull request at a time. 
 
 <aside class="aside">If you want to read more about my experience, and the type of work I'm interested in, check out <a href="/work">this page that outlines my previous and future work</a>.</aside>
 

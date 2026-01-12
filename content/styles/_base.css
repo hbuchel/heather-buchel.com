@@ -1,5 +1,6 @@
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
   line-height: var(--line-height-medium);
 }

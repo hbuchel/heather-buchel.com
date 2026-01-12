@@ -1,0 +1,45 @@
+
+.skip-link:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.site-header {
+  line-height: var(--line-height-small);
+  padding-top: var(--space-small);
+  margin-bottom: var(--space-medium);
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  margin: 0 auto;
+  gap: var(--space-xs);
+}
+
+.site-home-title {
+  margin: 0 auto;
+  font-size: var(--font-size-xxs);
+}
+
+.site-link, .site-home {
+  display: inline-block;
+  padding: var(--space-xxxxs);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: var(--font-size-xxs);
+  color: #111;
+}
+
+.site-home {
+  margin: 0 auto;
+}

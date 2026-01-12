@@ -1,0 +1,18 @@
+.home-title {
+  text-transform: uppercase;
+  font-size: var(--font-size-xxxl);
+  line-height: 1;
+  color: #fff;
+  background: #111;
+  display: inline-block;
+  width: 10ch;
+  padding: var(--space-small);
+  margin-bottom: var(--space-small);
+  span {
+    font-size: 2.8rem;
+  }
+}
+
+.latest-title {
+  font-size: var(--font-size-large);
+}
