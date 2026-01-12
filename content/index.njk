@@ -3,28 +3,22 @@ layout: layouts/home.njk
 numberOfLatestPostsToShow: 5
 ---
 
-
-<div class="home-columns">
-<div class="intro">
-	<img alt="A photo of Heather Buchel. She is wearing black glasses and her hair is brunette with lightened ends." class="intro__img" src="/img/me.jpg" />
-	<div class="intro__content">
-		<h1 class="intro__title">heather buchel</h1>
+<div class="section">
+	<div class="container">
 		<p>Hi, I’m Heather.  I like web standards. I'm an advocate for the platform and for the humans using it. Sometimes I even get to do that for my job as a front-end engineer.</p>
-		<p>I like blending my experience in user interface design with web accessibility. Front-of-the-front-end is my vibe.</p>
+		<p>I write about web accessibility and the state of front-end development.</p>
 	</div>
 </div>
 
+<div class="section">
+	<div class="container">
+		{% set postsCount = collections.posts | length %}
+		{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
-<div class="home-articles">
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+		<h2 class="latest-title">Latest writings</h2>
 
-<h2 class="section__title">Latest writings</h2>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-</div>
-
-
+		{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+		{% set postslistCounter = postsCount %}
+		{% include "postslist.njk" %}
+	</div>
 </div>

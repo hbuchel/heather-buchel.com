@@ -7,7 +7,9 @@
 @import "_card.css";
 @import "_home.css";
 @import "_img.css";
-@import "_page-layout.css";
+@import "_layout.css";
+@import "_post.css";
+@import "_social-share.css";
 @import "_type.css";
 @import "_site-footer.css";
 @import "_site-header.css";

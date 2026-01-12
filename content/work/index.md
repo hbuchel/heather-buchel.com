@@ -10,7 +10,7 @@ As a front-end engineer, my area of focus is accessibility and user interface de
 
 ## Current work
 
-Currently, I am a senior front-end engineer at Squarespace on the Web Accessibility and Performance team.
+Currently, I am a senior front-end engineer at Squarespace on the Design Platform team where I specialize in accessibility.
 
 
 ## Future work

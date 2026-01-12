@@ -1,0 +1,31 @@
+.social-card {
+    display: block;
+    text-decoration: none;
+    font-size: var(--font-size-small);
+    margin-bottom: var(--space-small);
+}
+
+.social-name {
+    display: flex;
+    gap: var(--space-xxxxs);
+    align-items: center;
+    text-decoration: underline;
+}
+
+.social-text {
+    color: #111;
+}
+
+.social-counts {
+    display: flex;
+    gap: var(--space-small);
+}
+
+.social-meta {
+    display: flex;
+    gap: var(--space-xxxxs);
+    align-items: center;
+}
+.social-meta__text {
+    display: flex;
+}

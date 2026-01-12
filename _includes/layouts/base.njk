@@ -10,16 +10,14 @@
 		<link rel="stylesheet" href="/styles/style.css">
 	
 	</head>
-	<body>
+	<body class="{{ 'home' if page.url == '/' }}">
 		
 		{% include "../partials/header.njk" %}
 
 		<main id="skip">
-			<div class="section">
-				<div class="container">
-					{{ content | safe }}
-				</div>
-			</div>
+		
+			{{ content | safe }}
+			
 		</main>
 
 		{% include "../partials/footer.njk" %}

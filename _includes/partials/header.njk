@@ -1,16 +1,16 @@
 <header class="site-header">
-    <a href="#skip" class="visually-hidden">Skip to main content</a>
-    <div class="site-header__container container">
-        {% if page.url !== "/" %}
-        <a href="/" class="site-link site-link--home">{{ metadata.title }}</a>
-        
+    <a class="skip-link" href="#skip">Skip to main content</a>
+    <nav class="site-nav" aria-label="Primary">
+        {% if page.url === '/' %}
+            <h1 class="site-home-title"><a class="site-home" href="/">{{ metadata.title }}</a></h1>
+        {% else %}
+            <a class="site-home" href="/">{{ metadata.title }}</a>
         {% endif %}
-        
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-        <nav class="site-nav">
+       
+        <div class="navigation">
             {%- for entry in collections.all | eleventyNavigation %}
                 <a class="site-link" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
             {%- endfor %}
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
