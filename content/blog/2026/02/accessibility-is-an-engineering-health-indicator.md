@@ -17,7 +17,7 @@ This isn't really a revelation or a surprise, but I've found that teams and orgs
 - a constant race to release new features (usually a lack of engineering leadership who can pump the brakes on overly eager product folk)
 - a disconnect between engineering, product and design
 
-More and more I am alarmed at how easily these issues accumulate; especially now that we are pressuring engineering teams to adopt AI. We've added this additional stress point. "See if you can make AI work somewhere, ANYWEHERE." This is not the same as asking your team "Hey, have you heard of React? Should we implement that?" or "What about this new design tool? Do you think the designers will like it?" There aren't reasonable discussions being had beforehand, that healthy engineering teams would usually take part in.
+More and more I am alarmed at how easily these issues accumulate; especially now that we are pressuring engineering teams to adopt AI. We've added this additional stress point. "See if you can make AI work somewhere, ANYWHERE." This is not the same as asking your team "Hey, have you heard of React? Should we implement that?" or "What about this new design tool? Do you think the designers will like it?" There aren't reasonable discussions being had beforehand, that healthy engineering teams would usually take part in.
 
 "Everyone is asking for it, without actually defining what it is, so we just have to do it." is not indicative of a healthy organization.
 
