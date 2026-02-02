@@ -8,7 +8,7 @@ date: 2026-02-02
 
 Something I've been stewing on lately, as someone introduced to teams as an "accessibility specialist", is how much I am actually able to influence teams to improve their practices around web accessibility. Or how much I'm not able to.
 
-This isn't really a relevation or a surprise, but I've found that teams and orgs that struggle with accessibility, are already struggling with a multitude of other issues:
+This isn't really a revelation or a surprise, but I've found that teams and orgs that struggle with accessibility, are already struggling with a multitude of other issues:
 
 - Technical debt
 - Lack of front-end expertise
