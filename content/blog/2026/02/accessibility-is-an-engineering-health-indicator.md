@@ -3,6 +3,7 @@ title: Accessibility progress and healthy engineering teams
 description: Some meandering thoughts about how halted accessibility progress is often the result of technical debt and a floundering team.
 socialImage: https://heather-buchel.com/social-images/accessibility-health.png
 tags: [the front-end space, accessibility]
+blueskyPostId: 3mdvh2i4nqc2m
 date: 2026-02-02
 ---
 
